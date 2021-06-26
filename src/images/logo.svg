@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49.843" height="61.207" viewBox="0 0 49.843 61.207">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.499" x2="1.001" y2="0.499" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2b00a3"/>
+      <stop offset="1" stop-color="#7028e4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.205" y1="0.197" x2="1.444" y2="0.778" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5e4fea"/>
+      <stop offset="1" stop-color="#7028e4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.516" y1="1.17" x2="1.237" y2="0.007" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.009" y1="1.054" x2="1.54" y2="-0.671" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="ecstatech_three-05" transform="translate(-189.533 -290.012)">
+    <path id="Path_3" data-name="Path 3" d="M235.12,330.9,215,351a.75.75,0,0,1-1.06,0h0a14.58,14.58,0,0,1,.51-20l10.35-10.36a14.56,14.56,0,0,0,3.53-14.93h0a1,1,0,0,1,0-.25.81.81,0,0,1,.81-.81.84.84,0,0,1,.49.16l.16.16,5.37,5.38a14.58,14.58,0,0,1-.04,20.55Z" fill="url(#linear-gradient)"/>
+    <path id="Path_4" data-name="Path 4" d="M193.83,310.32,204.15,300l9.76-9.76h0a.73.73,0,0,1,1.06,0,14.59,14.59,0,0,1-.5,20h0l-10.32,10.32,10.3,10.3h0a14.58,14.58,0,0,1,.56,20h0a.76.76,0,0,1-1.09,0L193.83,331a14.59,14.59,0,0,1,0-20.68Z" fill="url(#linear-gradient-2)"/>
+    <path id="Path_5" data-name="Path 5" d="M204.15,300l9.76-9.76h0a.73.73,0,0,1,1.06,0,14.59,14.59,0,0,1-.5,20h0l-10.32,10.32A14.59,14.59,0,0,1,204.15,300Z" fill="url(#linear-gradient-3)"/>
+    <path id="Path_6" data-name="Path 6" d="M214.74,315.28l4.8-4.8h0a.39.39,0,0,1,.56,0,7.19,7.19,0,0,1-.26,9.85h0l-4.8,4.81a.4.4,0,0,1-.56,0A7.19,7.19,0,0,1,214.74,315.28Z" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>
