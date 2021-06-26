@@ -5,8 +5,6 @@ import logo from "../images/logo.svg"
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false)
-  let mobileView = window.screen.width <= 500 ? true : false
-  console.log(mobileView)
 
   return (
     <div className="navbar">
