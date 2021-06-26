@@ -1,7 +1,7 @@
 import * as React from "react"
 import "../styles/Home.scss"
 import hero from "../images/hero-graphic.svg"
-import Typewriter from "typewriter-effect"
+// import Typewriter from "typewriter-effect"
 
 const Home = () => {
   return (
@@ -13,13 +13,14 @@ const Home = () => {
           We engineer digital products that are
         </div>
         <div className="home-hero-description keyword">
-          <Typewriter
+          successful
+          {/* <Typewriter
             options={{
               strings: ["successful", "converting", "beautiful"],
               autoStart: true,
               loop: true,
             }}
-          />
+          /> */}
         </div>
         <div className="home-hero-action">See our work</div>
       </div>
