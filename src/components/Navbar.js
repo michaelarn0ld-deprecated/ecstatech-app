@@ -5,6 +5,15 @@ import logo from "../images/logo.svg"
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false)
+  const [mobileView, setMobileView] = useState(false)
+  if (typeof window !== `undefined`) {
+    window.addEventListener(
+      "resize",
+      () =>
+        window.innerWidth <= 500 ? setMobileView(true) : setMobileView(false),
+      true
+    )
+  }
 
   return (
     <div className="navbar">
@@ -54,8 +63,19 @@ const Navbar = () => {
         >
           Blog
         </div>
+        {mobileView && (
+          <div
+            className={
+              clicked
+                ? "navbar-links-wrapper-visible mobile-contact"
+                : "navbar-links-wrapper-hidden mobile-contact"
+            }
+          >
+            Let's Chat!
+          </div>
+        )}
       </div>
-      <div className={clicked ? "navbar-contact" : "navbar-contact hidden"}>
+      <div className="navbar-contact">
         <div className="div">Let's Chat!</div>
       </div>
       <div className="navbar-menu-icon">

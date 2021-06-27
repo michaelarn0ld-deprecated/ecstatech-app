@@ -124,6 +124,36 @@
         transform: rotateZ(0) translateY(10px);
       }
     }
+    @keyframes burger_middle_close {
+      0% {
+        background-color: #42406c;
+      }
+      49% {
+        background-color: #42406c;
+      }
+      51% {
+        background-color: transparent;
+      }
+
+      100% {
+        background-color: transparent;
+      }
+    }
+    @keyframes burger_middle_open {
+      0% {
+        background-color: transparent;
+      }
+      49% {
+        background-color: transparent;
+      }
+      51% {
+        background-color: #42406c;
+      }
+
+      100% {
+        background-color: #42406c;
+      }
+    }
 
     grid-column: 3;
     grid-row: 2;
@@ -142,7 +172,7 @@
         width: 80%;
         background-color: #42406c;
         border-radius: 20px;
-        transition: all 0.3s ease;
+        animation: burger_middle_open 0.6s ease forwards;
         &::before,
         &::after {
           content: "";
@@ -153,18 +183,18 @@
           border-radius: 20px;
         }
         &::before {
-          animation: burger_top_open 0.5s ease forwards;
+          animation: burger_top_open 0.6s ease forwards;
         }
         &::after {
-          animation: burger_btm_open 0.5s ease forwards;
+          animation: burger_btm_open 0.6s ease forwards;
         }
         &.open {
-          background-color: transparent;
+          animation: burger_middle_close 0.6s ease forwards;
           &::before {
-            animation: burger_top_collapse 0.5s ease forwards;
+            animation: burger_top_collapse 0.6s ease forwards;
           }
           &::after {
-            animation: burger_btm_collapse 0.5s ease forwards;
+            animation: burger_btm_collapse 0.6s ease forwards;
           }
         }
       }
@@ -209,27 +239,6 @@
     }
   }
 
-  @keyframes contact_appear {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes contact_disappear {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-      transform: translate(0, 75vh);
-    }
-    100% {
-      transform: translate(100vw, 75vh);
-    }
-  }
-
   .navbar {
     margin: 0;
     padding-top: 40px;
@@ -256,21 +265,7 @@
       }
     }
     &-contact {
-      opacity: 0;
-      animation: contact_appear 0.7s ease forwards;
-      animation-delay: 1s;
-      background: transparent;
-      grid-column: 1/-1;
-      position: absolute;
-      justify-self: center;
-      transform: translateY(75vh);
-      transition: opacity 1s 1s;
-      > div {
-        white-space: nowrap;
-      }
-      &.hidden {
-        animation: contact_disappear 0.6s ease forwards;
-      }
+      display: none;
     }
     &-links-wrapper {
       position: sticky;
@@ -293,11 +288,44 @@
       &-hidden {
         opacity: 0;
         transition: opacity 0.4s;
+        &.mobile-contact {
+          opacity: 0;
+          font-size: 1.2rem;
+          font-weight: 600;
+          color: #5e4fea;
+          border: 3px solid;
+          border-radius: 200px;
+          padding: 10px 35px;
+          &:hover {
+            color: #fafafa;
+            border-color: #5e4fea;
+            background: #5e4fea;
+            cursor: pointer;
+          }
+          transition: all 0.4s;
+        }
       }
       &-visible {
         opacity: 1;
         transition: opacity 0.4s 0.6s;
+        &.mobile-contact {
+          opacity: 1;
+          font-size: 1.2rem;
+          font-weight: 600;
+          color: #5e4fea;
+          border: 3px solid;
+          border-radius: 200px;
+          padding: 10px 35px;
+          &:hover {
+            color: #fafafa;
+            border-color: #5e4fea;
+            background: #5e4fea;
+            cursor: pointer;
+          }
+          transition: opacity 0.4s 0.6s;
+        }
       }
+
       &.active {
         z-index: -1;
         animation: mobile_menu_opening 0.7s ease forwards;
