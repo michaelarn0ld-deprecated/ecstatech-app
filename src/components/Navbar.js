@@ -1,11 +1,16 @@
 import * as React from "react"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import "../styles/Navbar.scss"
 import logo from "../images/logo.svg"
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false)
   const [mobileView, setMobileView] = useState(false)
+  useEffect(() => {
+    if (typeof window !== `undefined`) {
+      window.innerWidth <= 500 && setMobileView(true)
+    }
+  })
   if (typeof window !== `undefined`) {
     window.addEventListener(
       "resize",
