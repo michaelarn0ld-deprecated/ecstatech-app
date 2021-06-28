@@ -39,7 +39,7 @@
       text-align: center;
       position: relative;
       background: #ffffff;
-      color: #fafafa;
+      color: #fff;
       background: linear-gradient(
         to right bottom,
         rgba(255, 255, 255, 0.3),
@@ -69,7 +69,7 @@
       &.two,
       &.three,
       &.four {
-        > div {
+        > img {
           position: absolute;
           top: -25%;
           width: 85%;
@@ -96,25 +96,9 @@
         }
       }
 
-      &.one {
-        > div {
-          background-image: url("../images/mobile.svg");
-        }
-      }
-      &.two {
-        > div {
-          background-image: url("../images/mobile.svg");
-        }
-      }
       &.three {
-        > div {
-          top: calc(-25% - 6px);
-          background-image: url("../images/automate.svg");
-        }
-      }
-      &.four {
-        > div {
-          background-image: url("../images/automate.svg");
+        > img {
+          top: calc(-25% + 12px);
         }
       }
     }
@@ -218,7 +202,8 @@
       > p {
         font-size: 0.9rem;
       }
-      padding-bottom: 100px;
+      padding-bottom: 160px;
+      padding-top: 63px;
     }
   }
 }

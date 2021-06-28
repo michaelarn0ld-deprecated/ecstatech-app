@@ -1,5 +1,9 @@
 import React from "react"
 import "../styles/Services.scss"
+import webdev from "../images/webdev.svg"
+import mobiledev from "../images/mobiledev.svg"
+import dataviz from "../images/dataviz.svg"
+import automate from "../images/automate.svg"
 
 const Services = () => {
   return (
@@ -10,7 +14,7 @@ const Services = () => {
       </div>
       <div className="services-glass">
         <div className="services-glass-item one">
-          <div></div>
+          <img src={webdev} alt="" />
           <h2>Web Development</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
@@ -19,7 +23,7 @@ const Services = () => {
           <button>Learn More</button>
         </div>
         <div className="services-glass-item two">
-          <div></div>
+          <img src={mobiledev} alt="" />
           <h2>Mobile Apps</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
@@ -28,7 +32,7 @@ const Services = () => {
           <button>Learn More</button>
         </div>
         <div className="services-glass-item three">
-          <div></div>
+          <img src={dataviz} alt="" />
           <h2>Data Analytics</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
@@ -37,7 +41,7 @@ const Services = () => {
           <button>Learn More</button>
         </div>
         <div className="services-glass-item four">
-          <div></div>
+          <img src={automate} alt="" />
           <h2>Automation</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
