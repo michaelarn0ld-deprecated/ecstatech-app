@@ -10,7 +10,7 @@ const Navbar = () => {
     if (typeof window !== `undefined`) {
       window.innerWidth <= 500 && setMobileView(true)
     }
-  })
+  }, [])
   if (typeof window !== `undefined`) {
     window.addEventListener(
       "resize",

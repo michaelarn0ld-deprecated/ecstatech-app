@@ -1,7 +1,7 @@
 .services {
   min-height: 100vh;
   width: 100%;
-  background: linear-gradient(45deg, #5e4fea, #510ebe);
+  background: linear-gradient(315deg, #6b5bf7, #380985);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -98,7 +98,7 @@
 
       &.one {
         > div {
-          background-image: url("../images/webdev.svg");
+          background-image: url("../images/mobile.svg");
         }
       }
       &.two {
@@ -109,7 +109,7 @@
       &.three {
         > div {
           top: calc(-25% - 6px);
-          background-image: url("../images/data.svg");
+          background-image: url("../images/automate.svg");
         }
       }
       &.four {
@@ -126,7 +126,7 @@
   background: #ffffff;
   background: linear-gradient(
     to right bottom,
-    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.45),
     rgba(255, 255, 255, 0.02)
   );
   height: 23rem;
@@ -158,6 +158,28 @@
       }
     }
   }
+  .circle1,
+  .circle2 {
+    height: 50vw;
+    width: 50vw;
+  }
+  .circle1 {
+    bottom: 0;
+    left: -23vw;
+  }
+
+  .circle2 {
+    right: -14vw;
+    bottom: 30%;
+  }
+}
+
+@media all and (max-width: 925px) {
+  .services {
+    &-text {
+      padding-top: 120px;
+    }
+  }
 }
 
 @media all and (max-width: 720px) {
@@ -171,13 +193,50 @@
       }
     }
   }
+  .circle1,
+  .circle2 {
+    height: 80vw;
+    width: 80vw;
+  }
+  .circle1 {
+    bottom: 0;
+    left: -23vw;
+  }
+
+  .circle2 {
+    right: -17vw;
+    bottom: 47%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .services {
+    &-text {
+      > h1 {
+        font-size: 2.2rem;
+      }
+      > p {
+        font-size: 0.9rem;
+      }
+      padding-bottom: 100px;
+    }
+  }
 }
 
 @media all and (max-width: 400px) {
   .services {
+    &-text {
+      > h1 {
+        font-size: 1.8rem;
+      }
+      > p {
+        font-size: 0.8rem;
+      }
+    }
     &-glass {
       width: 80%;
     }
+    padding-bottom: 70px;
   }
 }
 

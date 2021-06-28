@@ -1,6 +1,5 @@
 import React from "react"
 import "../styles/Services.scss"
-import webdev from "../images/webdev.svg"
 
 const Services = () => {
   return (
