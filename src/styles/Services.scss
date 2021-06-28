@@ -45,7 +45,7 @@
         rgba(255, 255, 255, 0.3),
         rgba(255, 255, 255, 0.05)
       );
-      min-height: max(50vh, 400px);
+      min-height: unquote("max(50vh, 400px)");
       border-radius: 2rem;
       border: 1px solid rgba(255, 255, 255, 0.2);
       backdrop-filter: blur(2rem);
