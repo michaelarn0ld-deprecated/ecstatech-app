@@ -8,8 +8,10 @@
 html,
 body {
   overflow-x: hidden;
+  height: auto;
 }
 
-body {
-  position: relative;
+body.lock-scroll {
+  height: 100vh;
+  overflow-y: hidden;
 }

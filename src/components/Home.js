@@ -10,15 +10,15 @@ const Home = () => {
       <div className="home-circle-two"></div>
       <div className="home-circle-three"></div>
       <div className="home-hero">
-        <div className="home-hero-subtitle">software made easy</div>
+        <div className="home-hero-subtitle">software made for you</div>
         <div className="home-hero-description">
           {" "}
-          We engineer digital products that are
+          We design digital products that are
         </div>
         <div className="home-hero-description keyword">
           <Typewriter
             options={{
-              strings: ["successful", "converting", "beautiful"],
+              strings: ["intelligent", "converting", "scalable", "disruptive"],
               autoStart: true,
               loop: true,
             }}

@@ -64,6 +64,7 @@
         font-size: 0.9rem;
         letter-spacing: 1px;
         font-weight: 300;
+        line-height: 130%;
       }
       &.one,
       &.two,
@@ -86,12 +87,14 @@
           width: 80%;
           font-size: 1.7rem;
           font-weight: 600;
-          background: #1c1a46;
+          background: #1c1a469a;
           color: #fafafa;
           border-radius: 20px;
           border: none;
+          transition: background 300ms ease;
           &:hover {
             cursor: pointer;
+            background: #1c1a46;
           }
         }
       }
@@ -128,6 +131,19 @@
 .circle2 {
   right: -4vw;
   bottom: 13vw;
+}
+
+@media all and (min-width: 1650px) {
+  .services {
+    &-glass {
+      &-item {
+        > p {
+          font-size: 1rem;
+          width: 70%;
+        }
+      }
+    }
+  }
 }
 
 @media all and (max-width: 1356px) {

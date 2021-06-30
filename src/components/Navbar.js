@@ -20,6 +20,10 @@ const Navbar = () => {
     )
   }
 
+  const lockMobileScroll = () => {
+    document.body.classList.toggle("lock-scroll")
+  }
+
   return (
     <div className="navbar">
       <div className="navbar-logo">
@@ -76,12 +80,12 @@ const Navbar = () => {
                 : "navbar-links-wrapper-hidden mobile-contact"
             }
           >
-            Let's Chat!
+            Say Hello
           </div>
         )}
       </div>
       <div className="navbar-contact">
-        <div className="div">Let's Chat!</div>
+        <div className="div">Say Hello</div>
       </div>
       <div className="navbar-menu-icon">
         <div className="navbar-menu-icon-burger">
@@ -91,7 +95,10 @@ const Navbar = () => {
                 ? "navbar-menu-icon-burger-active open"
                 : "navbar-menu-icon-burger-active"
             }
-            onClick={() => setClicked(!clicked)}
+            onClick={() => {
+              setClicked(!clicked)
+              lockMobileScroll()
+            }}
           ></div>
         </div>
       </div>
