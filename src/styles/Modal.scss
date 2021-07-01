@@ -130,7 +130,11 @@
     grid-column: 2;
     grid-row: 2;
     margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+
     > h2 {
+      border: 2px solid green;
       color: #42406c;
       font-size: 2rem;
       width: 100%;
@@ -145,13 +149,16 @@
       flex-direction: column;
       margin-top: 22px;
       > ul {
+        border: 3px solid red;
         display: grid;
+        height: 100%;
         grid-gap: 10px;
-        height: 80%;
+        align-items: center;
+        justify-content: center;
         background-color: transparent;
         list-style: none;
         > li {
-          // border: 2px solid red;
+          border: 2px solid blue;
           background: transparent;
           display: flex;
           flex-direction: column;
@@ -244,7 +251,7 @@
       }
       > div {
         > ul {
-          height: auto;
+          // height: auto;
         }
       }
     }
@@ -306,7 +313,7 @@
       }
       > div {
         > ul {
-          height: auto;
+          // height: auto;
           align-items: center;
           justify-content: center;
           > li {
