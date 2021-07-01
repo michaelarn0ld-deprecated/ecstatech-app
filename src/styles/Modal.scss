@@ -242,6 +242,11 @@
         font-size: 2.5rem;
         margin-bottom: 10px;
       }
+      > div {
+        > ul {
+          height: auto;
+        }
+      }
     }
     > button {
       position: static;
@@ -301,7 +306,7 @@
       }
       > div {
         > ul {
-          height: 50%;
+          height: auto;
           align-items: center;
           justify-content: center;
           > li {
