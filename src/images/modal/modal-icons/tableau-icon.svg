@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><rect width="1.5" height="9" x="22.75" y="1" fill="#78909c"/><rect width="9" height="1.5" x="19" y="4.75" fill="#78909c"/><rect width="1.5" height="9" x="40.75" y="19" fill="#5c6bc0"/><rect width="9" height="1.5" x="37" y="22.75" fill="#5c6bc0"/><rect width="1.5" height="9" x="4.75" y="19" fill="#78909c"/><rect width="9" height="1.5" x="1" y="22.75" fill="#78909c"/><rect width="1.5" height="9" x="22.75" y="37" fill="#5c6bc0"/><rect width="9" height="1.5" x="19" y="40.75" fill="#5c6bc0"/><rect width="17" height="3" x="15" y="22" fill="#e8762d"/><rect width="3" height="17" x="22" y="15" fill="#e8762d"/><rect width="2" height="14" x="11" y="6" fill="#ffa000"/><rect width="14" height="2" x="5" y="12" fill="#ffa000"/><rect width="2" height="14" x="34" y="6" fill="#607d8b"/><rect width="14" height="2" x="28" y="12" fill="#607d8b"/><rect width="2" height="14" x="11" y="27" fill="#c62828"/><rect width="14" height="2" x="5" y="33" fill="#c62828"/><rect width="2" height="14" x="34" y="27" fill="#0d47a1"/><rect width="14" height="2" x="28" y="33" fill="#0d47a1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="59.946" height="59.946" viewBox="0 0 59.946 59.946">
+  <g id="tableau-icon" transform="translate(-1 -1)">
+    <rect id="Rectangle_148" data-name="Rectangle 148" width="1.998" height="11.989" transform="translate(29.974 1)" fill="#78909c"/>
+    <rect id="Rectangle_149" data-name="Rectangle 149" width="11.989" height="1.998" transform="translate(24.978 5.996)" fill="#78909c"/>
+    <rect id="Rectangle_150" data-name="Rectangle 150" width="1.998" height="11.989" transform="translate(53.952 24.978)" fill="#5c6bc0"/>
+    <rect id="Rectangle_151" data-name="Rectangle 151" width="11.989" height="1.998" transform="translate(48.957 29.974)" fill="#5c6bc0"/>
+    <rect id="Rectangle_152" data-name="Rectangle 152" width="1.998" height="11.989" transform="translate(5.996 24.978)" fill="#78909c"/>
+    <rect id="Rectangle_153" data-name="Rectangle 153" width="11.989" height="1.998" transform="translate(1 29.974)" fill="#78909c"/>
+    <rect id="Rectangle_154" data-name="Rectangle 154" width="1.998" height="11.989" transform="translate(29.974 48.957)" fill="#5c6bc0"/>
+    <rect id="Rectangle_155" data-name="Rectangle 155" width="11.989" height="1.998" transform="translate(24.978 53.952)" fill="#5c6bc0"/>
+    <rect id="Rectangle_156" data-name="Rectangle 156" width="22" height="4" transform="translate(20 29)" fill="#e8762d"/>
+    <rect id="Rectangle_157" data-name="Rectangle 157" width="4" height="22" transform="translate(29 20)" fill="#e8762d"/>
+    <rect id="Rectangle_158" data-name="Rectangle 158" width="3" height="18" transform="translate(14 8)" fill="#ffa000"/>
+    <rect id="Rectangle_159" data-name="Rectangle 159" width="19" height="2" transform="translate(6 16)" fill="#ffa000"/>
+    <rect id="Rectangle_160" data-name="Rectangle 160" width="3" height="18" transform="translate(45 8)" fill="#607d8b"/>
+    <rect id="Rectangle_161" data-name="Rectangle 161" width="19" height="2" transform="translate(37 16)" fill="#607d8b"/>
+    <rect id="Rectangle_162" data-name="Rectangle 162" width="3" height="18" transform="translate(14 36)" fill="#c62828"/>
+    <rect id="Rectangle_163" data-name="Rectangle 163" width="19" height="2" transform="translate(6 44)" fill="#c62828"/>
+    <rect id="Rectangle_164" data-name="Rectangle 164" width="3" height="18" transform="translate(45 36)" fill="#0d47a1"/>
+    <rect id="Rectangle_165" data-name="Rectangle 165" width="19" height="2" transform="translate(37 44)" fill="#0d47a1"/>
+  </g>
+</svg>

@@ -1,6 +1,7 @@
 import htmlIcon from "../images/modal/modal-icons/html-icon.svg"
 import cssIcon from "../images/modal/modal-icons/css-icon.svg"
 import jsIcon from "../images/modal/modal-icons/javascript-icon.svg"
+import reactNative from "../images/modal/modal-icons/react-native.svg"
 import reactIcon from "../images/modal/modal-icons/react-icon.svg"
 import nodeIcon from "../images/modal/modal-icons/node-icon.svg"
 import phpIcon from "../images/modal/modal-icons/laravel-icon.svg"
@@ -41,7 +42,7 @@ const modalContent = {
       "Lorem ipsum dolor sit amet consectetur.",
       "Lorem ipsum dolor sit amet consectetur.",
     ],
-    icons: [["React Native", reactIcon]],
+    icons: [["React Native", reactNative]],
     format: "one",
   },
   dataAnaltyics: {
@@ -70,7 +71,7 @@ const modalContent = {
     ],
     icons: [
       ["Python", pythonIcon],
-      ["Google Apps Script", appscriptIcon],
+      ["Apps Script", appscriptIcon],
     ],
     format: "two",
   },
