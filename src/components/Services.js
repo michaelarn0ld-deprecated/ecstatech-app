@@ -35,16 +35,18 @@ const Services = () => {
         overlayClassName="modal-overlay"
         className="modal-content"
       >
-        <article>
+        <figure>
           <img
             className="modal-content-close"
             onClick={() => setModalOpen(!modalOpen)}
             src={times}
             alt=""
           />
-        </article>
+        </figure>
 
-        <img src={modalState.logo} alt="" />
+        <figrue className="modal-content-logo">
+          <img src={modalState.logo} alt="" />
+        </figrue>
         <main>
           <h1>{modalState.title}</h1>
           <p>
@@ -80,9 +82,9 @@ const Services = () => {
                 )
               })}
             </ul>
-            <button>Start a project</button>
           </div>
         </div>
+        <button>Start a project</button>
       </Modal>
       <div className="services-text">
         <h1>How can we help you?</h1>
@@ -98,8 +100,8 @@ const Services = () => {
           </p>
           <button
             onClick={() => {
-              setModalOpen(!modalOpen)
               setModalState(modalContent.webDev)
+              setTimeout(() => setModalOpen(!modalOpen), 100)
             }}
           >
             Learn More
@@ -114,8 +116,8 @@ const Services = () => {
           </p>
           <button
             onClick={() => {
-              setModalOpen(!modalOpen)
               setModalState(modalContent.mobileDev)
+              setTimeout(() => setModalOpen(!modalOpen), 100)
             }}
           >
             Learn More
@@ -130,8 +132,8 @@ const Services = () => {
           </p>
           <button
             onClick={() => {
-              setModalOpen(!modalOpen)
               setModalState(modalContent.dataAnaltyics)
+              setTimeout(() => setModalOpen(!modalOpen), 100)
             }}
           >
             Learn More
@@ -146,8 +148,8 @@ const Services = () => {
           </p>
           <button
             onClick={() => {
-              setModalOpen(!modalOpen)
               setModalState(modalContent.automation)
+              setTimeout(() => setModalOpen(!modalOpen), 100)
             }}
           >
             Learn More
