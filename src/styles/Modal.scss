@@ -278,14 +278,14 @@
       }
       > div {
         > div {
-          margin: 30px 0;
+          margin: 20px 0;
         }
       }
     }
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
   .modal-content {
     grid-gap: 0;
     > main {
@@ -302,7 +302,7 @@
       }
       > div {
         > div {
-          margin: 20px 0;
+          margin: 13px 0;
         }
       }
     }
