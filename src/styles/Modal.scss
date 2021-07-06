@@ -276,6 +276,11 @@
       > h2 {
         font-size: 1.6rem;
       }
+      > div {
+        > div {
+          margin: 30px 0;
+        }
+      }
     }
   }
 }
@@ -296,14 +301,8 @@
         font-size: 1.3rem;
       }
       > div {
-        > ul {
-          align-items: center;
-          justify-content: center;
-          > li {
-            > p {
-              font-size: 0.7rem;
-            }
-          }
+        > div {
+          margin: 20px 0;
         }
       }
     }
@@ -320,8 +319,10 @@
     }
     > div {
       > div {
-        > ul {
-          grid-gap: 0;
+        > div {
+          > ul {
+            grid-gap: 0;
+          }
         }
       }
     }
