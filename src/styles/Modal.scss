@@ -135,16 +135,13 @@
       font-size: 2rem;
       width: 100%;
       text-align: center;
-      // border: 2px solid red;
     }
     > div {
       height: 100%;
-      // border: 3px solid blue;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       > div {
-        // border: 3px solid black;
         width: 100%;
         background-color: transparent;
         display: flex;
@@ -173,8 +170,6 @@
         }
       }
       > section {
-        // border: 2px solid red;
-        // height: 100%;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -249,6 +244,14 @@
       margin: 0;
       > h2 {
         font-size: 2.5rem;
+      }
+      > div {
+        width: 100%;
+        // border: 3px solid black;
+        > div {
+          // border: 2px solid red;
+          margin: 20px 0;
+        }
       }
     }
   }
