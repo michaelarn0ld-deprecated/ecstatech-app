@@ -72,19 +72,23 @@ const Services = () => {
         <div>
           <h2>Technologies we use</h2>
           <div>
-            <ul style={modalIconStyles[modalState.format]}>
-              {modalState.icons.map((item, index) => {
-                return (
-                  <li key={index}>
-                    <p>{item[0]}</p>
-                    <img src={item[1]} alt="" />
-                  </li>
-                )
-              })}
-            </ul>
+            <div>
+              <ul style={modalIconStyles[modalState.format]}>
+                {modalState.icons.map((item, index) => {
+                  return (
+                    <li key={index}>
+                      <p>{item[0]}</p>
+                      <img src={item[1]} alt="" />
+                    </li>
+                  )
+                })}
+              </ul>
+            </div>
+            <section>
+              <button>Start a project</button>
+            </section>
           </div>
         </div>
-        <button>Start a project</button>
       </Modal>
       <div className="services-text">
         <h1>How can we help you?</h1>
