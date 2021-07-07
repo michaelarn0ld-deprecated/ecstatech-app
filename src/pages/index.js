@@ -3,6 +3,7 @@ import "../styles/Index.scss"
 import Navbar from "../components/Navbar"
 import Home from "../components/Home"
 import Services from "../components/Services"
+import Portfolio from "../components/Portfolio"
 
 const IndexPage = () => {
   return (
@@ -10,6 +11,7 @@ const IndexPage = () => {
       <Navbar />
       <Home />
       <Services />
+      <Portfolio />
     </div>
   )
 }
