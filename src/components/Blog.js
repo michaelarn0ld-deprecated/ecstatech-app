@@ -37,14 +37,9 @@ const Blog = () => {
     },
   ]
 
-  /*
-  at 1200 px -> 2 rows
-  at 760 -> 1 rows
-  */
-
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
-    { width: 560, itemsToShow: 2 },
+    { width: 620, itemsToShow: 2 },
     { width: 1000, itemsToShow: 3 },
   ]
 
@@ -64,6 +59,16 @@ const Blog = () => {
           </div>
         ))}
       </Carousel>
+      <footer>
+        <section>
+          <h1>Start a Project</h1>
+          <p>
+            Interested in working together? We should queue up a chat. I’ll buy
+            the coffee.
+          </p>
+          <button>Let's do this</button>
+        </section>
+      </footer>
     </div>
   )
 }
