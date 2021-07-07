@@ -1,0 +1,256 @@
+.rec {
+  background: transparent;
+}
+.rec.rec-arrow {
+  border-radius: 50%;
+  margin: 20px;
+  background: #fafafa;
+  color: #1c1a46;
+}
+.rec.rec-carousel {
+  > button {
+    &:hover {
+      color: #fafafa;
+      background: #1c1a46;
+    }
+  }
+}
+
+.rec.rec-dot {
+  background: #fafafa;
+  box-shadow: none;
+  &:hover {
+    box-shadow: 0 0 1px 3px #1c1a46;
+  }
+  &_active {
+    height: 11px;
+    width: 11px;
+    background: #1c1a46;
+    box-shadow: none;
+    &:hover {
+      box-shadow: none;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.blog {
+  min-height: 100vh;
+  background-color: #5e4fea;
+  &-item {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    margin-bottom: 50px;
+    border-radius: 45px;
+    background: #fafafa;
+    filter: drop-shadow(0 10px 10px #0000003a);
+    > p {
+      background: transparent;
+      color: #5e4fea;
+      margin-bottom: 5px;
+    }
+    > h1 {
+      background: transparent;
+      font-size: 1.5rem;
+      color: #42406c;
+    }
+    > img {
+      margin: 30px 0;
+      background-position: bottom;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: transparent;
+    }
+    > button {
+      font-size: 1.3rem;
+      font-weight: 500;
+      background-color: #6c63ff;
+      color: #fafafa;
+      border: none;
+      border-radius: 50px;
+      white-space: nowrap;
+      padding: 12px 24px;
+      align-self: flex-start;
+      cursor: pointer;
+      transition: background 300ms;
+      &:hover {
+        background: #1c1a46;
+      }
+    }
+  }
+  > header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background: transparent;
+    > h1 {
+      color: #fafafa;
+      font-size: 2.6rem;
+      background: transparent;
+      padding-bottom: 7px;
+    }
+    > p {
+      color: #fafafa;
+      background: transparent;
+      font-weight: 300;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  }
+}
+
+@media all and (max-width: 850px) {
+  .blog {
+    &-item {
+      > p {
+        font-size: 0.9rem;
+      }
+      > h1 {
+        font-size: 1.3rem;
+      }
+      > img {
+        margin: 25px 0;
+      }
+      > button {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        align-self: center;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 759px) {
+  .blog {
+    &-item {
+      width: 40%;
+      > p {
+        font-size: 1rem;
+      }
+      > h1 {
+        font-size: 1.5rem;
+      }
+      > img {
+        margin: 30px 0;
+      }
+      > button {
+        font-size: 1.3rem;
+        padding: 12px 24px;
+        align-self: flex-start;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 670px) {
+  .blog {
+    &-item {
+      width: 50%;
+    }
+  }
+}
+
+@media all and (max-width: 570px) {
+  .blog {
+    &-item {
+      width: 60%;
+    }
+  }
+}
+
+@media all and (max-width: 510px) {
+  .blog {
+    &-item {
+      width: 70%;
+    }
+  }
+}
+
+@media all and (max-width: 500px) {
+  .blog {
+    > header {
+      > h1 {
+        font-size: 2.2rem;
+      }
+      > p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 470px) {
+  .blog {
+    &-item {
+      width: 50%;
+    }
+  }
+  .rec.rec-carousel {
+    > button {
+      display: none;
+    }
+  }
+}
+
+@media all and (max-width: 400px) {
+  .blog {
+    > header {
+      > h1 {
+        font-size: 1.8rem;
+      }
+      > p {
+        font-size: 0.8rem;
+      }
+    }
+    &-item {
+      > p {
+        font-size: 0.9rem;
+      }
+      > h1 {
+        font-size: 1.3rem;
+      }
+      > img {
+        margin: 25px 0;
+      }
+      > button {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        align-self: flex-start;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 340px) {
+  .blog {
+    &-item {
+      width: 60%;
+    }
+  }
+}
+
+@media all and (max-width: 340px) {
+  .blog {
+    &-item {
+      > p {
+        font-size: 0.8rem;
+      }
+      > h1 {
+        font-size: 1.1rem;
+      }
+      > img {
+        margin: 25px 0;
+      }
+      > button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+        align-self: flex-start;
+      }
+    }
+  }
+}
