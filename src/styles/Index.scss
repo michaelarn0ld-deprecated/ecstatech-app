@@ -5,9 +5,17 @@
   background: #fafafa;
 }
 
-html,
+html {
+  overflow-x: hidden;
+  height: auto;
+}
+
 body {
   overflow-x: hidden;
+  // ---------------------------------
+  // Remove second vertical scrollbar
+  overflow-y: hidden;
+  // ---------------------------------
   height: auto;
 }
 

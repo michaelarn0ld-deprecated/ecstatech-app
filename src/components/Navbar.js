@@ -2,6 +2,7 @@ import * as React from "react"
 import { useState, useEffect } from "react"
 import "../styles/Navbar.scss"
 import logo from "../images/logo.svg"
+import { Link } from "react-scroll"
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false)
@@ -36,41 +37,71 @@ const Navbar = () => {
           clicked ? "navbar-links-wrapper active" : "navbar-links-wrapper"
         }
       >
-        <div
-          className={
-            clicked
-              ? "navbar-links-wrapper-visible"
-              : "navbar-links-wrapper-hidden"
-          }
-        >
-          Home
+        <div>
+          <Link
+            className={
+              clicked
+                ? "navbar-links-wrapper-visible"
+                : "navbar-links-wrapper-hidden"
+            }
+            to=""
+            smooth={true}
+            onClick={() => {
+              setClicked(false)
+            }}
+          >
+            Home
+          </Link>
         </div>
-        <div
-          className={
-            clicked
-              ? "navbar-links-wrapper-visible"
-              : "navbar-links-wrapper-hidden"
-          }
-        >
-          Services
+        <div>
+          <Link
+            className={
+              clicked
+                ? "navbar-links-wrapper-visible"
+                : "navbar-links-wrapper-hidden"
+            }
+            to="services"
+            duration={1000}
+            smooth={true}
+            onClick={() => {
+              setClicked(false)
+            }}
+          >
+            Services
+          </Link>
         </div>
-        <div
-          className={
-            clicked
-              ? "navbar-links-wrapper-visible"
-              : "navbar-links-wrapper-hidden"
-          }
-        >
-          Portfolio
+        <div>
+          <Link
+            className={
+              clicked
+                ? "navbar-links-wrapper-visible"
+                : "navbar-links-wrapper-hidden"
+            }
+            to="portfolio"
+            duration={1000}
+            smooth={true}
+            onClick={() => {
+              setClicked(false)
+            }}
+          >
+            Portfolio
+          </Link>
         </div>
-        <div
-          className={
-            clicked
-              ? "navbar-links-wrapper-visible"
-              : "navbar-links-wrapper-hidden"
-          }
-        >
-          Blog
+        <div>
+          <Link
+            className={
+              clicked
+                ? "navbar-links-wrapper-visible"
+                : "navbar-links-wrapper-hidden"
+            }
+            to="blog"
+            smooth={true}
+            onClick={() => {
+              setClicked(false)
+            }}
+          >
+            Blog
+          </Link>
         </div>
         {mobileView && (
           <div
