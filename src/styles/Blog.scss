@@ -40,6 +40,45 @@
 .blog {
   min-height: 100vh;
   background-color: #5e4fea;
+  &-footer-logo {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33%;
+    > img {
+      height: 100%;
+    }
+    > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #42406c;
+      > h1 {
+        font-size: 2rem;
+        font-weight: 100;
+      }
+      > h2 {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    }
+  }
+  &-footer-social {
+    display: flex;
+    margin: 20px 0;
+    > img {
+      height: 60%;
+      margin: 15px;
+      background: transparent;
+      &:hover {
+        filter: invert(32%) sepia(92%) saturate(4041%) hue-rotate(238deg)
+          brightness(96%) contrast(91%);
+        cursor: pointer;
+      }
+    }
+  }
   &-item {
     padding: 30px;
     display: flex;
@@ -111,11 +150,11 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     > section {
       position: absolute;
-      min-height: 20vh;
+      padding: 50px 0;
       width: 90%;
       background: #1c1a46;
       top: 0;
@@ -151,6 +190,10 @@
           background: #5e4fea;
         }
       }
+    }
+    > p {
+      font-weight: 100;
+      margin-bottom: 50px;
     }
   }
 }
@@ -246,12 +289,13 @@
 
 @media all and (max-width: 670px) {
   .blog {
+    margin-bottom: 100px;
     &-item {
       width: 60%;
     }
     > footer {
       > section {
-        min-height: 20vh;
+        padding: 0;
         width: 70%;
         flex-direction: column;
         justify-content: center;
@@ -273,6 +317,12 @@
           margin: 15px;
           margin-bottom: 30px;
         }
+      }
+      > div {
+        transform: translateY(50px);
+      }
+      > p {
+        transform: translateY(50px);
       }
     }
   }
@@ -333,10 +383,27 @@
     &-item {
       width: 70%;
     }
+    &-footer-social {
+      > img {
+        height: 40%;
+        margin: 10px;
+        background: transparent;
+        &:hover {
+          filter: invert(32%) sepia(92%) saturate(4041%) hue-rotate(238deg)
+            brightness(96%) contrast(91%);
+          cursor: pointer;
+        }
+      }
+    }
     > header {
       > h1 {
         font-size: 1.8rem;
       }
+      > p {
+        font-size: 0.8rem;
+      }
+    }
+    > footer {
       > p {
         font-size: 0.8rem;
       }

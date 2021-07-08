@@ -1,5 +1,11 @@
 import React from "react"
 import "../styles/Blog.scss"
+import logo from "../images/logo.svg"
+import linkedIn from "../images/blog/linkedin.svg"
+import github from "../images/blog/github.svg"
+import medium from "../images/blog/medium.svg"
+import instagram from "../images/blog/instagram.svg"
+import youtube from "../images/blog/youtube.svg"
 import cppDs from "../images/blog/cppds.svg"
 import Carousel from "react-elastic-carousel"
 
@@ -68,6 +74,21 @@ const Blog = () => {
           </p>
           <button>Let's do this</button>
         </section>
+        <div className="blog-footer-logo">
+          <img src={logo} alt="" />
+          <div>
+            <h1>ecsta</h1>
+            <h2>tech</h2>
+          </div>
+        </div>
+        <div className="blog-footer-social">
+          <img src={linkedIn} alt="" />
+          <img src={medium} alt="" />
+          <img src={github} alt="" />
+          <img src={instagram} alt="" />
+          <img src={youtube} alt="" />
+        </div>
+        <p>Designed and built by Michael Arnold &#169; 2021</p>
       </footer>
     </div>
   )

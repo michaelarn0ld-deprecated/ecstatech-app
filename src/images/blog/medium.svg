@@ -1,0 +1,9 @@
+<svg id="Component_29_1" data-name="Component 29 – 1" xmlns="http://www.w3.org/2000/svg" width="59" height="59" viewBox="0 0 59 59">
+  <path id="Icon_awesome-medium-m" data-name="Icon awesome-medium-m" d="M4.2,8.871a1.054,1.054,0,0,0-.341-.882L1.339,4.952V4.5H9.165l6.051,13.268L20.535,4.5H28v.452L25.844,7.017a.629.629,0,0,0-.24.6V22.8a.629.629,0,0,0,.24.6l2.1,2.065v.452H17.359v-.452l2.183-2.116c.212-.212.212-.279.212-.6V10.484l-6.068,15.4h-.821L5.81,10.484V20.8A1.406,1.406,0,0,0,6.2,21.988l2.836,3.438v.452H1v-.447l2.836-3.444A1.36,1.36,0,0,0,4.2,20.8Z" transform="translate(14.497 14.507)" fill="#42406c"/>
+  <g id="Component_16_1" data-name="Component 16 – 1">
+    <g id="Ellipse_90" data-name="Ellipse 90" fill="none" stroke="#42406c" stroke-width="4">
+      <circle cx="29.5" cy="29.5" r="29.5" stroke="none"/>
+      <circle cx="29.5" cy="29.5" r="27.5" fill="none"/>
+    </g>
+  </g>
+</svg>
