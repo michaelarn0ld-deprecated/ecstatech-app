@@ -74,21 +74,23 @@ const Blog = () => {
           </p>
           <button>Let's do this</button>
         </section>
-        <div className="blog-footer-logo">
-          <img src={logo} alt="" />
-          <div>
-            <h1>ecsta</h1>
-            <h2>tech</h2>
+        <main>
+          <div className="blog-footer-logo">
+            <img src={logo} alt="" />
+            <div>
+              <h1>ecsta</h1>
+              <h2>tech</h2>
+            </div>
           </div>
-        </div>
-        <div className="blog-footer-social">
-          <img src={linkedIn} alt="" />
-          <img src={medium} alt="" />
-          <img src={github} alt="" />
-          <img src={instagram} alt="" />
-          <img src={youtube} alt="" />
-        </div>
-        <p>Designed and built by Michael Arnold &#169; 2021</p>
+          <div className="blog-footer-social">
+            <img src={linkedIn} alt="" />
+            <img src={medium} alt="" />
+            <img src={github} alt="" />
+            <img src={instagram} alt="" />
+            <img src={youtube} alt="" />
+          </div>
+          <p>Designed and built by Michael Arnold &#169; 2021</p>
+        </main>
       </footer>
     </div>
   )

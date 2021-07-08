@@ -41,31 +41,37 @@
   min-height: 100vh;
   background-color: #5e4fea;
   &-footer-logo {
+    background: transparent;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 33%;
+    height: 170px;
     > img {
       height: 100%;
+      background: transparent;
     }
     > div {
+      background: transparent;
       display: flex;
       justify-content: center;
       align-items: center;
       color: #42406c;
       > h1 {
+        background: transparent;
         font-size: 2rem;
         font-weight: 100;
       }
       > h2 {
+        background: transparent;
         font-size: 2rem;
         font-weight: 600;
       }
     }
   }
   &-footer-social {
+    background: transparent;
     display: flex;
     margin: 20px 0;
     > img {
@@ -191,9 +197,17 @@
         }
       }
     }
-    > p {
-      font-weight: 100;
-      margin-bottom: 50px;
+    > main {
+      position: absolute;
+      top: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      > p {
+        font-weight: 100;
+        margin-bottom: 50px;
+      }
     }
   }
 }
@@ -318,12 +332,6 @@
           margin-bottom: 30px;
         }
       }
-      > div {
-        transform: translateY(50px);
-      }
-      > p {
-        transform: translateY(50px);
-      }
     }
   }
   .rec.rec-dot {
@@ -370,6 +378,16 @@
     &-item {
       width: 60%;
     }
+    &-footer-social {
+      > img {
+        height: 40px;
+      }
+    }
+    &-footer-logo {
+      > img {
+        height: 70%;
+      }
+    }
   }
   .rec.rec-carousel {
     > button {
@@ -383,18 +401,7 @@
     &-item {
       width: 70%;
     }
-    &-footer-social {
-      > img {
-        height: 40%;
-        margin: 10px;
-        background: transparent;
-        &:hover {
-          filter: invert(32%) sepia(92%) saturate(4041%) hue-rotate(238deg)
-            brightness(96%) contrast(91%);
-          cursor: pointer;
-        }
-      }
-    }
+
     > header {
       > h1 {
         font-size: 1.8rem;
@@ -404,8 +411,10 @@
       }
     }
     > footer {
-      > p {
-        font-size: 0.8rem;
+      > main {
+        > p {
+          font-size: 0.8rem;
+        }
       }
     }
     &-item {
@@ -432,6 +441,16 @@
     &-item {
       width: 75%;
     }
+    &-footer-social {
+      > img {
+        height: 30px;
+      }
+    }
+    &-footer-logo {
+      > img {
+        height: 50%;
+      }
+    }
   }
 }
 
@@ -451,6 +470,11 @@
         font-size: 0.9rem;
         padding: 8px 16px;
         align-self: flex-start;
+      }
+    }
+    &-footer-social {
+      > img {
+        height: 27px;
       }
     }
   }
