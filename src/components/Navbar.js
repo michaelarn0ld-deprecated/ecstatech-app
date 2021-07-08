@@ -47,7 +47,7 @@ const Navbar = () => {
             to=""
             smooth={true}
             onClick={() => {
-              lockMobileScroll()
+              mobileView && lockMobileScroll()
               setClicked(false)
             }}
           >
@@ -65,7 +65,7 @@ const Navbar = () => {
             duration={1000}
             smooth={true}
             onClick={() => {
-              lockMobileScroll()
+              mobileView && lockMobileScroll()
               setClicked(false)
             }}
           >
@@ -83,7 +83,7 @@ const Navbar = () => {
             duration={1000}
             smooth={true}
             onClick={() => {
-              lockMobileScroll()
+              mobileView && lockMobileScroll()
               setClicked(false)
             }}
           >
@@ -100,7 +100,7 @@ const Navbar = () => {
             to="blog"
             smooth={true}
             onClick={() => {
-              lockMobileScroll()
+              mobileView && lockMobileScroll()
               setClicked(false)
             }}
           >
