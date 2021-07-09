@@ -150,14 +150,14 @@
   }
 
   > footer {
-    padding-bottom: 70px;
-    min-height: 60vh;
+    padding-bottom: 50px;
+    padding-top: 150px;
     width: 100%;
     background-color: #fafafa;
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     > section {
       position: absolute;
@@ -199,8 +199,6 @@
       }
     }
     > main {
-      position: absolute;
-      top: 200px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -303,11 +301,12 @@
 
 @media all and (max-width: 670px) {
   .blog {
-    margin-bottom: 100px;
     &-item {
       width: 60%;
     }
     > footer {
+      padding-bottom: 70px;
+      padding-top: 190px;
       > section {
         padding: 0;
         width: 70%;
