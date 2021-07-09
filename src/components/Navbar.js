@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import "../styles/Navbar.scss"
 import logo from "../images/logo.svg"
 import { Link } from "react-scroll"
+import { Link as GLink } from "gatsby"
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false)
@@ -108,19 +109,26 @@ const Navbar = () => {
           </Link>
         </div>
         {mobileView && (
-          <div
-            className={
-              clicked
-                ? "navbar-links-wrapper-visible mobile-contact"
-                : "navbar-links-wrapper-hidden mobile-contact"
-            }
-          >
-            Say Hello
+          <div>
+            <GLink
+              className={
+                clicked
+                  ? "navbar-links-wrapper-visible mobile-contact"
+                  : "navbar-links-wrapper-hidden mobile-contact"
+              }
+              to="/contact"
+            >
+              Say Hello
+            </GLink>
           </div>
         )}
       </div>
       <div className="navbar-contact">
-        <div className="div">Say Hello</div>
+        <div>
+          <GLink className="navbar-contact-link" to="/contact">
+            Say Hello
+          </GLink>
+        </div>
       </div>
       <div className="navbar-menu-icon">
         <div className="navbar-menu-icon-burger">

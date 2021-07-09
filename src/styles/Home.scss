@@ -60,18 +60,20 @@
     }
     &-action {
       position: relative;
-      margin-top: 30px;
-      background: #5e4fea;
-      color: #fafafa;
-      width: fit-content;
-      padding: 13px 45px;
-      font-size: 1.8rem;
-      font-weight: 600;
-      border-radius: 300px;
-      cursor: pointer;
-      transition: background 300ms;
-      &:hover {
-        background: #1c1a46;
+      margin-top: 45px;
+      &-link {
+        background: #5e4fea;
+        color: #fafafa;
+        width: fit-content;
+        padding: 13px 45px;
+        font-size: 1.8rem;
+        font-weight: 600;
+        border-radius: 300px;
+        cursor: pointer;
+        transition: background 300ms;
+        &:hover {
+          background: #1c1a46;
+        }
       }
     }
   }
@@ -225,7 +227,7 @@
       &-description {
         font-size: 2.1rem;
       }
-      &-action {
+      &-action-link {
         font-size: 1.5rem;
       }
     }

@@ -1,4 +1,5 @@
 import React from "react"
+import { animateScroll as scroll } from "react-scroll"
 import "../styles/Blog.scss"
 import logo from "../images/logo.svg"
 import linkedIn from "../images/blog/linkedin.svg"
@@ -75,7 +76,10 @@ const Blog = () => {
           <button>Let's do this</button>
         </section>
         <main>
-          <div className="blog-footer-logo">
+          <div
+            className="blog-footer-logo"
+            onClick={() => scroll.scrollToTop()}
+          >
             <img src={logo} alt="" />
             <div>
               <h1>ecsta</h1>
@@ -83,11 +87,24 @@ const Blog = () => {
             </div>
           </div>
           <div className="blog-footer-social">
-            <img src={linkedIn} alt="" />
-            <img src={medium} alt="" />
-            <img src={github} alt="" />
-            <img src={instagram} alt="" />
-            <img src={youtube} alt="" />
+            <a
+              href="https://www.linkedin.com/in/michaelarnoldcpp"
+              target="_blank"
+            >
+              <img src={linkedIn} alt="" />
+            </a>
+            <a href="https://michaelarn0ld.medium.com/" target="_blank">
+              <img src={medium} alt="" />
+            </a>
+            <a href="https://github.com/michaelarn0ld" target="_blank">
+              <img src={github} alt="" />
+            </a>
+            <a href="" target="_blank">
+              <img src={instagram} alt="" />
+            </a>
+            <a href="" target="_blank">
+              <img src={youtube} alt="" />
+            </a>
           </div>
           <p>Designed and built by Michael Arnold &#169; 2021</p>
         </main>

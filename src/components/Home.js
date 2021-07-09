@@ -2,6 +2,7 @@ import * as React from "react"
 import "../styles/Home.scss"
 import hero from "../images/hero-graphic.svg"
 import Typewriter from "typewriter-effect"
+import { Link } from "react-scroll"
 
 const Home = () => {
   return (
@@ -24,7 +25,11 @@ const Home = () => {
             }}
           />
         </div>
-        <div className="home-hero-action">See our work</div>
+        <div className="home-hero-action">
+          <Link className="home-hero-action-link" to="portfolio" smooth={true}>
+            See our work
+          </Link>
+        </div>
       </div>
       <div className="home-graphic">
         <img src={hero} alt="" />

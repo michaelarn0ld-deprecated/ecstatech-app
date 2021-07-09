@@ -74,14 +74,18 @@
     background: transparent;
     display: flex;
     margin: 20px 0;
-    > img {
-      height: 60%;
+    > a {
       margin: 15px;
-      background: transparent;
-      &:hover {
-        filter: invert(32%) sepia(92%) saturate(4041%) hue-rotate(238deg)
-          brightness(96%) contrast(91%);
-        cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      > img {
+        background: transparent;
+        &:hover {
+          filter: invert(32%) sepia(92%) saturate(4041%) hue-rotate(238deg)
+            brightness(96%) contrast(91%);
+          cursor: pointer;
+        }
       }
     }
   }
@@ -378,8 +382,10 @@
       width: 60%;
     }
     &-footer-social {
-      > img {
-        height: 40px;
+      > a {
+        > img {
+          height: 40px;
+        }
       }
     }
     &-footer-logo {
@@ -441,8 +447,10 @@
       width: 75%;
     }
     &-footer-social {
-      > img {
-        height: 30px;
+      > a {
+        > img {
+          height: 30px;
+        }
       }
     }
     &-footer-logo {
@@ -472,8 +480,10 @@
       }
     }
     &-footer-social {
-      > img {
-        height: 27px;
+      > a {
+        > img {
+          height: 27px;
+        }
       }
     }
   }
