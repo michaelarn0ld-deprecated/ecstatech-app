@@ -28,7 +28,8 @@
   }
   > main {
     margin: 0 7vw;
-    height: 600px;
+    padding-bottom: 50px;
+    min-height: 600px;
     background: transparent;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -117,25 +118,29 @@
           color: #1c1a46;
           font-weight: 500;
         }
-        > input {
-          margin-top: 5px;
-          font-size: 1rem;
+        > div {
+          position: relative;
+          width: calc(100% - 20px);
           border: 2px solid #d1d1d1;
           border-radius: 5px;
-          width: calc(100% - 50px);
-          padding: 10px 0;
-          padding-left: 50px;
-          background-position: 10px center;
-          background-repeat: no-repeat;
-          background-size: 30px;
-
-          &.form-name {
-            background-image: url("../images/contact/formname.svg");
+          display: flex;
+          align-items: center;
+          padding: 10px;
+          &:focus {
+            border: 2px solid red;
           }
-          &.form-email {
-            background-image: url("../images/contact/formmail.svg");
+
+          > input {
+            width: 100%;
+            margin-left: 10px;
+            font-size: 1rem;
+            border: none;
+            &:focus {
+              outline: none;
+            }
           }
         }
+
         > textarea {
           padding: 10px;
           width: calc(100% - 20px);
@@ -145,6 +150,9 @@
           background: #ebebeb;
           border-radius: 5px;
           resize: none;
+          &:focus {
+            outline: none;
+          }
         }
       }
       > button {
@@ -169,3 +177,161 @@
     width: 55%;
   }
 }
+
+@media all and (max-width: 1050px) {
+  .contact-page {
+    > main {
+      > section {
+        grid-column: 1/6;
+        > article {
+          > h1 {
+            font-size: 2.5rem;
+          }
+          > p {
+            font-size: 0.9rem;
+          }
+        }
+        > div {
+          > img {
+            height: 70%;
+          }
+          > h2 {
+            font-size: 1.2rem;
+          }
+        }
+      }
+      > form {
+        grid-column: 7/-1;
+        > button {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 730px) {
+  .contact-page {
+    > main {
+      > section {
+        justify-content: center;
+        align-items: center;
+        grid-column: 3/-3;
+        > article {
+          padding: 20px 0;
+          text-align: center;
+          > h1 {
+            font-size: 2.5rem;
+          }
+          > p {
+            font-size: 0.9rem;
+          }
+        }
+        > div {
+          padding: 20px;
+          > img {
+            height: 70%;
+          }
+          > h2 {
+            font-size: 1.2rem;
+          }
+        }
+        > nav {
+          padding: 20px;
+          padding-bottom: 50px;
+        }
+      }
+      > form {
+        grid-column: 3/-3;
+        > button {
+          padding: 13px 45px;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 570px) {
+  .contact-page {
+    > main {
+      > section {
+        grid-column: 2/-2;
+      }
+      > form {
+        grid-column: 2/-2;
+        > div {
+          margin-bottom: 20px;
+        }
+        > button {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 460px) {
+  .contact-page {
+    > main {
+      > section {
+        grid-column: 1/-1;
+      }
+      > form {
+        grid-column: 1/-1;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 380px) {
+  .contact-page {
+    > main {
+      > section {
+        > article {
+          > h1 {
+            font-size: 2rem;
+          }
+          > p {
+            font-size: 0.8rem;
+          }
+        }
+        > div {
+          > h2 {
+            font-size: 1rem;
+          }
+        }
+        > nav {
+          > a {
+            height: 40px;
+            width: 40px;
+          }
+        }
+      }
+      > form {
+        > div {
+          > p {
+            font-size: 0.8rem;
+          }
+          > div {
+            > img {
+              height: 15px;
+            }
+            > input {
+              font-size: 0.8rem;
+            }
+          }
+
+          > textarea {
+            font-size: 0.8rem;
+          }
+        }
+        > button {
+          white-space: nowrap;
+          font-size: 1.2rem;
+          padding: 13px 35px;
+        }
+      }
+    }
+  }
+} ;

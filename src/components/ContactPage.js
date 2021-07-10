@@ -12,6 +12,8 @@ import md from "../images/contact/contact-md.svg"
 import gh from "../images/contact/contact-gh.svg"
 import ig from "../images/contact/contact-ig.svg"
 import yt from "../images/contact/contact-yt.svg"
+import formName from "../images/contact/formname.svg"
+import formMail from "../images/contact/formmail.svg"
 
 init("user_TNTFrlyie1bK82cVI2YDb")
 
@@ -81,25 +83,31 @@ const ContactPage = () => {
         <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
           <div>
             <label htmlFor="username">Your Name</label>
-            <input
-              name="username"
-              type="text"
-              className="form-name"
-              {...register("username", { required: true })}
-            />
+            <div>
+              <img src={formName} alt="" />
+              <input
+                name="username"
+                type="text"
+                className="form-name"
+                {...register("username", { required: true })}
+              />
+            </div>
             {errors.username && <p>Please enter a name</p>}
           </div>
           <div>
             <label htmlFor="email">Email Address</label>
-            <input
-              name="email"
-              type="text"
-              className="form-email"
-              {...register("email", {
-                required: true,
-                pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
-              })}
-            />
+            <div>
+              <img src={formMail} alt="" />
+              <input
+                name="email"
+                type="text"
+                className="form-email"
+                {...register("email", {
+                  required: true,
+                  pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+                })}
+              />
+            </div>
             {errors.email && <p>Please enter a valid email address</p>}
           </div>
           <div>
