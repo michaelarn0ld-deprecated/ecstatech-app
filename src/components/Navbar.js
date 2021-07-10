@@ -117,6 +117,7 @@ const Navbar = () => {
                   : "navbar-links-wrapper-hidden mobile-contact"
               }
               to="/contact"
+              onClick={() => lockMobileScroll()}
             >
               Say Hello
             </GLink>
