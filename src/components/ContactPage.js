@@ -20,6 +20,7 @@ const ContactPage = () => {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm()
 
   const onSubmit = data => {
@@ -31,6 +32,7 @@ const ContactPage = () => {
         console.log("FAILED...", error)
       }
     )
+    reset()
   }
 
   return (
