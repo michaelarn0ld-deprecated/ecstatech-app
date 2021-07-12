@@ -108,7 +108,6 @@ const About = () => {
           <img className="aboutpage-content-one" src={howHelp} alt="" />
         </section>
         <section>
-          <img className="aboutpage-content-imgtwo" src={whoHelp} alt="" />
           <div className="aboutpage-content-two">
             <h1>Who I Help</h1>
             <p>
@@ -132,6 +131,7 @@ const About = () => {
               </article>
             </div>
           </div>
+          <img className="aboutpage-content-imgtwo" src={whoHelp} alt="" />
         </section>
       </div>
     </div>

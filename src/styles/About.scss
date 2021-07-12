@@ -172,10 +172,16 @@
     margin: 80px 12vw 50px 12vw;
     &-imgtwo {
       transform: translateX(-60px);
+      grid-column: 1;
+      grid-row: 1;
+    }
+    &-two {
+      grid-column: 2;
     }
     > section {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
       grid-gap: 20px;
       margin-bottom: 100px;
       > div {
@@ -215,6 +221,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-color: transparent;
+        align-self: center;
       }
     }
   }
@@ -336,6 +343,47 @@
         }
       }
     }
+    &-content {
+      &-imgtwo {
+        // grid-column: 1;
+        // grid-row: 2;
+        // transform: translateX(0);
+      }
+      &-two {
+        // grid-column: 1;
+        // grid-row: 1;
+      }
+      > section {
+        // grid-template-columns: 1fr;
+        // grid-template-rows: auto auto;
+        > div {
+          // display: flex;
+          // flex-direction: column;
+          // justify-content: center;
+          // align-items: center;
+          // text-align: center;
+          > h1 {
+            font-size: 2.1rem;
+          }
+          > p {
+            margin: 0;
+            margin-top: 10px;
+          }
+          > div {
+            > article {
+              > div {
+                // margin-right: 0;
+                height: 13px;
+                // width: 20px;
+              }
+              > p {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -364,6 +412,48 @@
     &-values {
       > h1 {
         font-size: 2rem;
+      }
+    }
+    &-content {
+      &-imgtwo {
+        grid-column: 1;
+        grid-row: 2;
+        transform: translateX(0);
+      }
+      &-two {
+        grid-column: 1;
+        grid-row: 1;
+      }
+      > section {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        > div {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          > h1 {
+            font-size: 1.8rem;
+          }
+          > p {
+            margin: 0;
+            margin-top: 10px;
+            font-size: 0.9rem;
+          }
+          > div {
+            > article {
+              > div {
+                margin-right: 10px;
+                height: 13px;
+                width: 13px;
+              }
+              > p {
+                font-size: 0.9rem;
+              }
+            }
+          }
+        }
       }
     }
   }
