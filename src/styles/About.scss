@@ -434,7 +434,7 @@
           align-items: center;
           text-align: center;
           > h1 {
-            font-size: 1.8rem;
+            font-size: 2rem;
           }
           > p {
             margin: 0;
@@ -511,6 +511,25 @@
           }
           > p {
             font-size: 0.9rem;
+          }
+        }
+      }
+    }
+    &-content {
+      > section {
+        > div {
+          > h1 {
+            font-size: 1.6rem;
+          }
+          > p {
+            font-size: 0.9rem;
+          }
+          > div {
+            > article {
+              > p {
+                font-size: 0.9rem;
+              }
+            }
           }
         }
       }
@@ -607,6 +626,7 @@
     &-values {
       > main {
         grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
         > div {
           > p {
             width: 75%;
@@ -663,6 +683,16 @@
           }
           > p {
             font-size: 0.8rem;
+          }
+        }
+      }
+    }
+    &-content {
+      > section {
+        margin-bottom: 70px;
+        > div {
+          > h1 {
+            font-size: 1.4rem;
           }
         }
       }
