@@ -1,5 +1,6 @@
 import React from "react"
 import { animateScroll as scroll } from "react-scroll"
+import { Link as GLink } from "gatsby"
 import "../styles/Blog.scss"
 import logo from "../images/logo.svg"
 import linkedIn from "../images/blog/linkedin.svg"
@@ -73,7 +74,11 @@ const Blog = () => {
             Interested in working together? We should queue up a chat. I’ll buy
             the coffee.
           </p>
-          <button>Let's do this</button>
+          <button>
+            <GLink className="blog-cta" to="/contact">
+              Let's do this
+            </GLink>
+          </button>
         </section>
         <main>
           <div

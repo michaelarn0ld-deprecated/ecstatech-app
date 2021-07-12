@@ -40,23 +40,26 @@ const Navbar = () => {
       >
         <div>
           <Link
+            id="nav-links"
             className={
               clicked
                 ? "navbar-links-wrapper-visible"
                 : "navbar-links-wrapper-hidden"
             }
-            to=""
+            to="aboutpage"
+            duration={1000}
             smooth={true}
             onClick={() => {
               mobileView && lockMobileScroll()
               setClicked(false)
             }}
           >
-            Home
+            About
           </Link>
         </div>
         <div>
           <Link
+            id="nav-links"
             className={
               clicked
                 ? "navbar-links-wrapper-visible"
@@ -75,6 +78,7 @@ const Navbar = () => {
         </div>
         <div>
           <Link
+            id="nav-links"
             className={
               clicked
                 ? "navbar-links-wrapper-visible"
@@ -93,6 +97,7 @@ const Navbar = () => {
         </div>
         <div>
           <Link
+            id="nav-links"
             className={
               clicked
                 ? "navbar-links-wrapper-visible"

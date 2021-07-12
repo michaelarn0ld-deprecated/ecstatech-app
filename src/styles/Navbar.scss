@@ -1,3 +1,26 @@
+#nav-links {
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background-color: #5e4fea;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+  }
+  &:hover::before,
+  :focus::before {
+    transform: scaleX(1);
+    cursor: pointer;
+  }
+  &:hover {
+    color: #5e4fea;
+    cursor: pointer;
+  }
+}
+
 .navbar {
   position: relative;
   margin: 13px 7vw 0 7vw;
@@ -35,26 +58,6 @@
       margin: 36px 3vw;
       padding: 0 5px;
       position: relative;
-      &::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: -2px;
-        height: 2px;
-        background-color: #5e4fea;
-        transform: scaleX(0);
-        transition: transform 300ms ease-in-out;
-      }
-      &:hover::before,
-      :focus::before {
-        transform: scaleX(1);
-        cursor: pointer;
-      }
-      &:hover {
-        color: #5e4fea;
-        cursor: pointer;
-      }
     }
   }
   &-contact {

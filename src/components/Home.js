@@ -14,7 +14,7 @@ const Home = () => {
         <div className="home-hero-subtitle">software made for you</div>
         <div className="home-hero-description">
           {" "}
-          We design digital products that are
+          I engineer digital products that are
         </div>
         <div className="home-hero-description keyword">
           <Typewriter
@@ -27,7 +27,7 @@ const Home = () => {
         </div>
         <div className="home-hero-action">
           <Link className="home-hero-action-link" to="portfolio" smooth={true}>
-            See our work
+            See my work
           </Link>
         </div>
       </div>

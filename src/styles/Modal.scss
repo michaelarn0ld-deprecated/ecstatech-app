@@ -59,6 +59,24 @@
       max-height: 100%;
     }
   }
+  &-button {
+    background: transparent;
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 50px;
+    white-space: nowrap;
+    padding: 15px 50px;
+    align-self: center;
+    cursor: pointer;
+    transition: background 300ms;
+    &:hover {
+      background: #1c1a46;
+    }
+  }
 
   > main {
     grid-column: 2;
@@ -175,20 +193,20 @@
         justify-content: center;
         align-items: center;
         > button {
-          font-size: 1.2rem;
-          font-weight: 600;
-          background-color: #6c63ff;
-          color: #fafafa;
           border: none;
-          border-radius: 50px;
-          white-space: nowrap;
-          padding: 15px 50px;
-          align-self: center;
-          cursor: pointer;
-          transition: background 300ms;
-          &:hover {
-            background: #1c1a46;
-          }
+          // font-size: 1.2rem;
+          // font-weight: 600;
+          // background-color: #6c63ff;
+          // border: none;
+          // border-radius: 50px;
+          // white-space: nowrap;
+          padding: 15px 0;
+          // align-self: center;
+          // cursor: pointer;
+          // transition: background 300ms;
+          // &:hover {
+          //   background: #1c1a46;
+          // }
         }
       }
     }
