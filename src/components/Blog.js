@@ -74,11 +74,10 @@ const Blog = () => {
             Interested in working together? We should queue up a chat. I’ll buy
             the coffee.
           </p>
-          <button>
-            <GLink className="blog-cta" to="/contact">
-              Let's do this
-            </GLink>
-          </button>
+
+          <GLink className="blog-cta" to="/contact">
+            Let's do this
+          </GLink>
         </section>
         <main>
           <div

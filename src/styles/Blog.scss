@@ -42,13 +42,13 @@
   background-color: #5e4fea;
 
   &-cta {
+    font-size: 1.3rem;
     z-index: 100;
     text-decoration: none;
     font-weight: 300;
     background: transparent;
     color: #fafafa;
-    // border: 3px solid #5e4fea;
-    border: 3px solid red;
+    border: 3px solid #5e4fea;
     border-radius: 50px;
     white-space: nowrap;
     padding: 12px 24px;
@@ -184,7 +184,7 @@
     align-items: center;
     > section {
       position: absolute;
-      padding: 50px 0;
+      padding: 30px 0;
       width: 90%;
       background: #1c1a46;
       top: 0;
@@ -194,6 +194,7 @@
       justify-content: space-around;
       align-items: center;
       > h1 {
+        padding: 20px;
         font-size: 1.8rem;
         background: transparent;
         color: #fafafa;
@@ -204,11 +205,6 @@
         background: transparent;
         color: #fafafa;
         font-weight: 300;
-      }
-      > button {
-        background: transparent;
-        border: none;
-        font-size: 1.3rem;
       }
     }
     > main {
@@ -276,6 +272,10 @@
 
 @media all and (max-width: 759px) {
   .blog {
+    &-cta {
+      font-size: 1.1rem;
+      padding: 12px 24px;
+    }
     &-item {
       width: 50%;
       > p {
@@ -296,16 +296,12 @@
     > footer {
       > section {
         > h1 {
+          padding: 0;
           font-size: 1.5rem;
         }
         > p {
           font-size: 0.9rem;
           width: 30%;
-        }
-        > button {
-          font-size: 1.1rem;
-
-          padding: 12px 24px;
         }
       }
     }
@@ -314,6 +310,10 @@
 
 @media all and (max-width: 670px) {
   .blog {
+    &-cta {
+      margin: 15px;
+      margin-bottom: 30px;
+    }
     &-item {
       width: 60%;
     }
@@ -335,13 +335,6 @@
           font-size: 0.9rem;
           width: 90%;
           margin: 15px;
-        }
-        > button {
-          font-size: 1.1rem;
-
-          padding: 12px 24px;
-          margin: 15px;
-          margin-bottom: 30px;
         }
       }
     }
