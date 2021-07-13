@@ -1,4 +1,5 @@
 import React from "react"
+import { useState } from "react"
 import { init, sendForm } from "emailjs-com"
 import { Link as GLink } from "gatsby"
 import { useForm } from "react-hook-form"
@@ -14,10 +15,15 @@ import ig from "../images/contact/contact-ig.svg"
 import yt from "../images/contact/contact-yt.svg"
 import formName from "../images/contact/formname.svg"
 import formMail from "../images/contact/formmail.svg"
+import success from "../images/contact/success.svg"
+import failure from "../images/contact/failure.svg"
 
 init("user_TNTFrlyie1bK82cVI2YDb")
 
 const ContactPage = () => {
+  const [submitted, setSubmitted] = useState(false)
+  const [successfulSubmit, setSuccessfulSubmit] = useState(false)
+
   const {
     register,
     handleSubmit,
@@ -28,9 +34,13 @@ const ContactPage = () => {
   const onSubmit = data => {
     sendForm("default_service", "template_4uo07uk", "#contact-form").then(
       function (response) {
+        setSuccessfulSubmit(true)
+        setSubmitted(true)
         console.log("SUCCESS", response.status, response.text)
       },
       function (error) {
+        setSuccessfulSubmit(false)
+        setSubmitted(true)
         console.log("FAILED...", error)
       }
     )
@@ -39,6 +49,38 @@ const ContactPage = () => {
 
   return (
     <div className="contact-page">
+      {submitted && (
+        <div className="contact-page-submitmsg">
+          <div className="submit-success">
+            <div
+              style={
+                successfulSubmit
+                  ? { background: "#49c65e" }
+                  : { background: "#FE6A6A" }
+              }
+            ></div>
+            <img src={successfulSubmit ? success : failure} alt="" />
+            <section>
+              <h1>{successfulSubmit ? "Success" : "Failed"}</h1>
+              <p>
+                {successfulSubmit
+                  ? "your message has been sent"
+                  : "please try again later"}
+              </p>
+            </section>
+            <button
+              style={
+                successfulSubmit
+                  ? { background: "#49c65e" }
+                  : { background: "#FE6A6A" }
+              }
+              onClick={() => setSubmitted(false)}
+            >
+              close
+            </button>
+          </div>
+        </div>
+      )}
       <header>
         <img src={logo} alt="" />
         <GLink to="/" className="contact-page-back">
