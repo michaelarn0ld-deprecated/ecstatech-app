@@ -5,6 +5,7 @@ import transparent from "../images/about/transparent.svg"
 import reliable from "../images/about/reliable.svg"
 import howHelp from "../images/about/howihelp.svg"
 import whoHelp from "../images/about/whoihelp.svg"
+import profile from "../images/about/profile.jpg"
 import "../styles/About.scss"
 
 const About = () => {
@@ -22,7 +23,7 @@ const About = () => {
       </header>
       <section>
         <div>
-          <img src="" alt="" />
+          <img src={profile} alt="" />
           <p>
             Tech nerd and problem solver; I am a software developer, engineering
             enthusiast, and first principles thinker.

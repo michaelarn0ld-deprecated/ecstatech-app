@@ -66,7 +66,7 @@
       > img {
         height: 150px;
         width: 150px;
-        border: 2px solid black;
+        border: 2px solid #1c1a46;
         border-radius: 50%;
         margin: 35px 30px;
       }
@@ -204,7 +204,7 @@
               margin-right: 12px;
               height: 16px;
               width: 16px;
-              border-radius: 50%;
+
               background: #5e4fea;
             }
             > p {
@@ -321,12 +321,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      > h1 {
-        font-size: 2.1rem;
-      }
-      > p {
-        font-size: 1rem;
-      }
       > main {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 50px;
@@ -344,27 +338,8 @@
       }
     }
     &-content {
-      &-imgtwo {
-        // grid-column: 1;
-        // grid-row: 2;
-        // transform: translateX(0);
-      }
-      &-two {
-        // grid-column: 1;
-        // grid-row: 1;
-      }
       > section {
-        // grid-template-columns: 1fr;
-        // grid-template-rows: auto auto;
         > div {
-          // display: flex;
-          // flex-direction: column;
-          // justify-content: center;
-          // align-items: center;
-          // text-align: center;
-          > h1 {
-            font-size: 2.1rem;
-          }
           > p {
             margin: 0;
             margin-top: 10px;
@@ -372,9 +347,7 @@
           > div {
             > article {
               > div {
-                // margin-right: 0;
                 height: 13px;
-                // width: 20px;
               }
               > p {
                 font-size: 1rem;
@@ -410,8 +383,8 @@
       }
     }
     &-values {
-      > h1 {
-        font-size: 2rem;
+      > p {
+        font-size: 1.1rem;
       }
     }
     &-content {
@@ -433,13 +406,10 @@
           justify-content: center;
           align-items: center;
           text-align: center;
-          > h1 {
-            font-size: 2rem;
-          }
+
           > p {
             margin: 0;
             margin-top: 10px;
-            font-size: 0.9rem;
           }
           > div {
             > article {
@@ -499,11 +469,9 @@
     }
     &-values {
       > h1 {
-        font-size: 1.6rem;
+        font-size: 2.2rem;
       }
-      > p {
-        font-size: 0.9rem;
-      }
+
       > main {
         > div {
           > h2 {
@@ -511,25 +479,6 @@
           }
           > p {
             font-size: 0.9rem;
-          }
-        }
-      }
-    }
-    &-content {
-      > section {
-        > div {
-          > h1 {
-            font-size: 1.6rem;
-          }
-          > p {
-            font-size: 0.9rem;
-          }
-          > div {
-            > article {
-              > p {
-                font-size: 0.9rem;
-              }
-            }
           }
         }
       }
@@ -603,6 +552,11 @@
         }
       }
     }
+    &-values {
+      > p {
+        width: 80%;
+      }
+    }
   }
 }
 
@@ -670,10 +624,7 @@
     }
     &-values {
       > h1 {
-        font-size: 1.4rem;
-      }
-      > p {
-        font-size: 0.8rem;
+        font-size: 2rem;
       }
       > main {
         grid-template-columns: repeat(1, 1fr);
@@ -692,7 +643,33 @@
         margin-bottom: 70px;
         > div {
           > h1 {
-            font-size: 1.4rem;
+            font-size: 2.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 400px) {
+  .aboutpage {
+    &-values {
+      > h1 {
+        font-size: 1.8rem;
+      }
+      > p {
+        font-size: 0.8rem;
+      }
+    }
+    &-content {
+      > section {
+        margin-bottom: 70px;
+        > div {
+          > h1 {
+            font-size: 1.8rem;
+          }
+          > p {
+            font-size: 0.8rem;
           }
         }
       }
