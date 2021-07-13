@@ -9,19 +9,29 @@ const Splash = () => {
     gsap.to(".splash-ecsta", {
       y: 0,
       duration: 1,
-      opacity: 1,
       ease: "bounce.out",
+      delay: 0.3,
+    })
+    gsap.to(".splash-ecsta", {
+      duration: 1,
+      opacity: 1,
+      ease: "power3.inOut",
       delay: 0.3,
     })
     gsap.to(".splash-tech", {
       y: 0,
       duration: 1,
-      opacity: 1,
       ease: "bounce.out",
       delay: 0.6,
     })
+    gsap.to(".splash-tech", {
+      duration: 1,
+      opacity: 1,
+      ease: "power3.inOut",
+      delay: 0.6,
+    })
     gsap.to(".splash-ctnr", {
-      y: 120,
+      y: 130,
       duration: 1,
       ease: "power3.inOut",
       delay: 1.5,
