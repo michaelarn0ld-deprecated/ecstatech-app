@@ -13,13 +13,18 @@ const Home = () => {
       <div className="home-hero">
         <div className="home-hero-subtitle">software made for you</div>
         <div className="home-hero-description">
-          {" "}
-          I engineer digital products that are
+          I develop digital products that are
         </div>
         <div className="home-hero-description keyword">
           <Typewriter
             options={{
-              strings: ["intelligent", "converting", "scalable", "disruptive"],
+              strings: [
+                "interactive",
+                "converting",
+                "scalable",
+                "intuitive",
+                "successful",
+              ],
               autoStart: true,
               loop: true,
             }}

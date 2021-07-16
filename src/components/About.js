@@ -15,8 +15,8 @@ const About = () => {
         <main>
           <h2>my vision</h2>
           <h1>
-            Driving my clients’ conversion through performative code and amazing
-            user experiences
+            Your applications should convert more customers and keep your
+            business running smoothly.
           </h1>
         </main>
         <div></div>
@@ -25,58 +25,59 @@ const About = () => {
         <div>
           <img src={profile} alt="" />
           <p>
-            Tech nerd and problem solver; I am a software developer, engineering
-            enthusiast, and first principles thinker.
+            Tech nerd and analytical problem solver; I am a software developer,
+            engineering enthusiast, and first principles thinker.
           </p>
           <h2>Michael Arnold</h2>
         </div>
         <article>
           <h2>my mission</h2>
           <h1>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut
+            Optimizing my clients’ conversion through performative code and
+            amazing user experiences.
           </h1>
-          <button>Resume / CV</button>
+          <button>My Resume</button>
         </article>
       </section>
       <div className="aboutpage-values">
-        <h1>My core values reflect my work</h1>
+        <h1>My core values define my identity.</h1>
         <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores
+          I put relationships with my clients first. Your project deserves
+          carefully engineered attention to detail, and that’s where I come in.
+          My priority is to provide you with the best customer experience from
+          end to end of your project.
         </p>
         <main>
           <div>
             <img src={devoted} alt="" />
             <h2>devoted</h2>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et
+              By focusing on quality over quantity, I ensure that I am
+              passionate about your vision.
             </p>
           </div>
           <div>
             <img src={dataDriven} alt="" />
             <h2>data driven</h2>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et
+              I develop apps with a user-first approach, applying data insights
+              to secure your project's success.
             </p>
           </div>
           <div>
             <img src={transparent} alt="" />
             <h2>transparent</h2>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et
+              Tranparency and communication are my promise to provide you with a
+              hassle-free experience.
             </p>
           </div>
           <div>
             <img src={reliable} alt="" />
             <h2>reliable</h2>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et
+              I stand behind my product and am ready to tackle the changing
+              demands of your project.
             </p>
           </div>
         </main>
