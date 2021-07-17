@@ -609,6 +609,9 @@
       > h1 {
         font-size: 2rem;
       }
+      > p {
+        font-size: 0.9rem;
+      }
       > main {
         grid-template-columns: repeat(1, 1fr);
         > div {
@@ -636,9 +639,6 @@
     &-values {
       > h1 {
         font-size: 1.8rem;
-      }
-      > p {
-        font-size: 0.8rem;
       }
     }
     &-content {
