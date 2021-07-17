@@ -60,7 +60,7 @@ const About = () => {
             <img src={dataDriven} alt="" />
             <h2>data driven</h2>
             <p>
-              I develop apps with a user-first approach, applying data insights
+              I create apps with a user-first approach, applying data insights
               to secure your project's success.
             </p>
           </div>
@@ -87,23 +87,24 @@ const About = () => {
           <div className="aboutpage-content-imgone">
             <h1>How I Help</h1>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum.
+              I help grow your business by developing modern web & mobile apps
+              engineered to convert more customers and simplify your workflow.
+              Whether you have an existing project that needs new features, or
+              you want to build something from scratch, I am here to turn your
+              ideas into a reality.
             </p>
             <div>
               <article>
                 <div></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Custom web & mobile applications</p>
               </article>
               <article>
                 <div></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Data analytics for business insights</p>
               </article>
               <article>
                 <div></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Business process automation</p>
               </article>
             </div>
           </div>
@@ -113,23 +114,24 @@ const About = () => {
           <div className="aboutpage-content-two">
             <h1>Who I Help</h1>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum.
+              I love working with small businesses who are passionate about
+              their work, committed to their customers, and excited about
+              bringing value to the market. If you are ready to leverage
+              technology to boost your business, but don’t know where to start
+              &#8212; then I want to hear from you.
             </p>
             <div>
               <article>
                 <div></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Small businesses</p>
               </article>
               <article>
                 <div></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Early-stage startups</p>
               </article>
               <article>
                 <div></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Entrepreneurs with awesome ideas</p>
               </article>
             </div>
           </div>

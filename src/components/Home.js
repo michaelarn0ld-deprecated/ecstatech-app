@@ -13,7 +13,7 @@ const Home = () => {
       <div className="home-hero">
         <div className="home-hero-subtitle">software made for you</div>
         <div className="home-hero-description">
-          I develop digital products that are
+          I create web & mobile applications that are
         </div>
         <div className="home-hero-description keyword">
           <Typewriter
