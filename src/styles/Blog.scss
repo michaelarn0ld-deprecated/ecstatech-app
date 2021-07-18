@@ -122,7 +122,7 @@
     > p {
       background: transparent;
       color: #5e4fea;
-      // margin-bottom: 5px;
+      margin-bottom: 5px;
     }
     > h1 {
       background: transparent;
@@ -235,7 +235,7 @@
         font-size: 0.9rem;
       }
       > h1 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
       }
       > img {
         margin: 25px 0;
@@ -430,7 +430,7 @@
         font-size: 0.9rem;
       }
       > h1 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
       }
       > img {
         margin: 25px 0;
@@ -488,6 +488,22 @@
           height: 27px;
         }
       }
+    }
+  }
+}
+
+@media all and (min-height: 1000px) {
+  .blog {
+    &-item {
+      min-height: auto;
+    }
+  }
+}
+
+@media all and (max-height: 900px) {
+  .blog {
+    &-item {
+      min-height: 55vh;
     }
   }
 }
