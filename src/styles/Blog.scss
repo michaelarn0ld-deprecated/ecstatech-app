@@ -379,6 +379,28 @@
   }
 }
 
+@media all and (max-width: 480px) {
+  .blog {
+    &-item {
+      width: 70%;
+      > p {
+        font-size: 0.9rem;
+      }
+      > h1 {
+        font-size: 1.2rem;
+      }
+      > img {
+        margin: 25px 0;
+      }
+      > button {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        align-self: flex-start;
+      }
+    }
+  }
+}
+
 @media all and (max-width: 470px) {
   .blog {
     &-item {
@@ -404,26 +426,8 @@
   }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 420px) {
   .blog {
-    &-item {
-      width: 75%;
-      > p {
-        font-size: 0.9rem;
-      }
-      > h1 {
-        font-size: 1.2rem;
-      }
-      > img {
-        margin: 25px 0;
-      }
-      > button {
-        font-size: 1.1rem;
-        padding: 10px 20px;
-        align-self: flex-start;
-      }
-    }
-
     > header {
       > h1 {
         font-size: 1.8rem;
