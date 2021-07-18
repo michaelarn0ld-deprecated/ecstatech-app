@@ -53,7 +53,7 @@ const modalContent = {
     title: "Data Analytics",
     logo: dataMain,
     content:
-      "While data can be one of a business’s most valuable assets, managing a successful analytics program can often seem like a daunting task. Let me take care of the headache and set up the analytics program you need to turn information into insights.",
+      "While data can be one of a business’s most valuable assets, managing a successful analytics program can often seem like a daunting task. Let me take care of the headache and set up the infrastructure you need to turn information into insights.",
     problems: [
       "Gain insights from unused business data",
       "Discover trends that predict customer behavior",
@@ -69,7 +69,8 @@ const modalContent = {
   automation: {
     title: "Automation",
     logo: automationMain,
-    content: "",
+    content:
+      "Repetitive, manual processes within your business are not only tedious but can also be a source of error and inconsistency. I help fix this by building business solutions that integrate, automate, and extend your Google Workspace or Microsoft Office environments.",
     problems: [
       "Streamline business procedures",
       "Automate report generation and distribution.",

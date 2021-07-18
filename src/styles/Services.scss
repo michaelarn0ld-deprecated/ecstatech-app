@@ -133,6 +133,22 @@
   bottom: 13vw;
 }
 
+@media all and (min-height: 1200px) {
+  .services {
+    min-height: auto;
+    &-text {
+      padding-bottom: 200px;
+    }
+  }
+}
+@media all and (min-width: 2700px) {
+  .services {
+    &-text {
+      padding-bottom: 300px;
+    }
+  }
+}
+
 @media all and (min-width: 1650px) {
   .services {
     &-glass {

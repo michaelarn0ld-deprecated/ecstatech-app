@@ -9,6 +9,7 @@ import medium from "../images/blog/medium.svg"
 import instagram from "../images/blog/instagram.svg"
 import youtube from "../images/blog/youtube.svg"
 import cppDs from "../images/blog/cppds.svg"
+import chemE from "../images/blog/cheme.svg"
 import Carousel from "react-elastic-carousel"
 
 const Blog = () => {
@@ -21,28 +22,28 @@ const Blog = () => {
     {
       category: "Technology",
       title: "Leaping from Chemical Engineering to Software Development.",
-      icon: cppDs,
+      icon: chemE,
     },
     {
       category: "Technology",
       title: "C++ Data Structures - Stacks, queues, sets, and maps.",
       icon: cppDs,
     },
-    {
-      category: "Techno",
-      title: "C++ Data Structures - Stacks, queues, sets, and maps.",
-      icon: cppDs,
-    },
-    {
-      category: "Logy",
-      title: "C++ Data Structures - Stacks, queues, sets, and maps.",
-      icon: cppDs,
-    },
-    {
-      category: "Tech",
-      title: "C++ Data Structures - Stacks, queues, sets, and maps.",
-      icon: cppDs,
-    },
+    // {
+    //   category: "Techno",
+    //   title: "C++ Data Structures - Stacks, queues, sets, and maps.",
+    //   icon: cppDs,
+    // },
+    // {
+    //   category: "Logy",
+    //   title: "C++ Data Structures - Stacks, queues, sets, and maps.",
+    //   icon: cppDs,
+    // },
+    // {
+    //   category: "Tech",
+    //   title: "C++ Data Structures - Stacks, queues, sets, and maps.",
+    //   icon: cppDs,
+    // },
   ]
 
   const breakPoints = [
