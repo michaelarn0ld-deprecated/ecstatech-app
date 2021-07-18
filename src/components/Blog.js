@@ -70,14 +70,14 @@ const Blog = () => {
       </Carousel>
       <footer>
         <section>
-          <h1>Start a Project</h1>
+          <h1>Work With Me</h1>
           <p>
-            Interested in working together? We should queue up a chat. I’ll buy
-            the coffee.
+            Have a project for me? Let's schedule a chat and see if we'll make a
+            good fit.
           </p>
 
           <GLink className="blog-cta" to="/contact">
-            Let's do this
+            Get in touch
           </GLink>
         </section>
         <main>
