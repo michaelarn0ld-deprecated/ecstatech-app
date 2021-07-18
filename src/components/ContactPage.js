@@ -92,8 +92,8 @@ const ContactPage = () => {
           <article>
             <h1>Get in touch!</h1>
             <p>
-              Have a project or just want to chat? Reach out to us and we will
-              get back to you within 24 hours.
+              Have a project or just want to chat? Reach out to me and I'll get
+              back to you within 24 hours.
             </p>
           </article>
           <div>

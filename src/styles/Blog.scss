@@ -109,7 +109,7 @@
     }
   }
   &-item {
-    // height: 53vh;
+    min-height: 50vh;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -122,11 +122,11 @@
     > p {
       background: transparent;
       color: #5e4fea;
-      margin-bottom: 5px;
+      // margin-bottom: 5px;
     }
     > h1 {
       background: transparent;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       color: #42406c;
     }
     > img {

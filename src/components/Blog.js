@@ -55,8 +55,8 @@ const Blog = () => {
   return (
     <div className="blog">
       <header>
-        <h1>Not your average blog</h1>
-        <p>Read our latest content on tech</p>
+        <h1>Latest blog posts</h1>
+        <p>Sharing my software journey, one article at a time.</p>
       </header>
       <Carousel breakPoints={breakPoints}>
         {blogPosts.map(post => (

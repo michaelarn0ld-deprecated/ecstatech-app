@@ -91,7 +91,7 @@ const Services = () => {
         </div>
       </Modal>
       <div className="services-text">
-        <h1>How can I help you?</h1>
+        <h1>Build your dream project today</h1>
         <p>Here's a list of the services I offer</p>
       </div>
       <div className="services-glass">
