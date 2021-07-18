@@ -105,19 +105,25 @@ const ContactPage = () => {
             <h2>michael@ecstatech.com</h2>
           </div>
           <nav>
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/michaelarnoldcpp"
+              target="_blank"
+            >
               <img src={li} alt="" />
             </a>
-            <a href="">
+            <a href="https://michaelarn0ld.medium.com/" target="_blank">
               <img src={md} alt="" className="contact-page-medium" />
             </a>
-            <a href="">
+            <a href="https://github.com/michaelarn0ld" target="_blank">
               <img src={gh} alt="" />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/ecstatechapps/" target="_blank">
               <img src={ig} alt="" />
             </a>
-            <a href="">
+            <a
+              href="https://m.youtube.com/channel/UC2CTdHvm_vlLMJ5f3B-Ggew/"
+              target="_blank"
+            >
               <img src={yt} alt="" />
             </a>
           </nav>

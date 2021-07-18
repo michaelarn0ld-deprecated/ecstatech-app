@@ -104,10 +104,13 @@ const Blog = () => {
             <a href="https://github.com/michaelarn0ld" target="_blank">
               <img src={github} alt="" />
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.instagram.com/ecstatechapps/" target="_blank">
               <img src={instagram} alt="" />
             </a>
-            <a href="" target="_blank">
+            <a
+              href="https://m.youtube.com/channel/UC2CTdHvm_vlLMJ5f3B-Ggew/"
+              target="_blank"
+            >
               <img src={youtube} alt="" />
             </a>
           </div>
