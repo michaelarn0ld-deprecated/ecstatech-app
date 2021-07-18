@@ -17,9 +17,11 @@ const modalContent = {
   webDev: {
     title: "Web Development",
     logo: webMain,
+    content:
+      "You deserve a pixel-perfect web presence that reflects how awesome your business is! A good website should be functional, fast, and secure. Whether your project is dynamic and complex, or is a smaller landing page, I work closely with you to make sure we hit the mark.",
     problems: [
       "Tailored web experiences from scratch",
-      "Website performance and code audits",
+      "E-commerce site setup and maintenance",
       "Integrated internal business tools",
       "Search engine optimization",
     ],
@@ -29,13 +31,15 @@ const modalContent = {
       ["Javascript", jsIcon],
       ["React", reactIcon],
       ["Node", nodeIcon],
-      ["Laravel", phpIcon],
+      ["PHP", phpIcon],
     ],
     format: "three",
   },
   mobileDev: {
     title: "Mobile Apps",
     logo: mobileMain,
+    content:
+      "A strong mobile application can play a critical role in the success of your business. I stay up to date with the latest in app development practices to create personalized mobile experiences. The result? You deliver a robust product to meet the needs of your users.",
     problems: [
       "Cross-platform apps built for iOS and Android",
       "Pixel-perfect user experiences",
@@ -48,10 +52,12 @@ const modalContent = {
   dataAnaltyics: {
     title: "Data Analytics",
     logo: dataMain,
+    content:
+      "While data can be one of a business’s most valuable assets, managing a successful analytics program can often seem like a daunting task. Let me take care of the headache and set up the analytics program you need to turn information into insights.",
     problems: [
       "Gain insights from unused business data",
       "Discover trends that predict customer behavior",
-      "Make business proactive instead of reactive",
+      "Make decisions proactively instead of reactively",
       "Optimize business strategies and operations",
     ],
     icons: [
@@ -63,6 +69,7 @@ const modalContent = {
   automation: {
     title: "Automation",
     logo: automationMain,
+    content: "",
     problems: [
       "Streamline business procedures",
       "Automate report generation and distribution.",

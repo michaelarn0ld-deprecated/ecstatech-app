@@ -50,12 +50,7 @@ const Services = () => {
         </figrue>
         <main>
           <h1>{modalState.title}</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-            quia error perferendis quis doloribus earum tenetur, eos tempora
-            fugiat itaque expedita quod necessitatibus non iste commodi sit.
-            Officiis facilis nemo voluptatibus neque quae ad eveniet.
-          </p>
+          <p>{modalState.content}</p>
         </main>
         <section>
           <h2>Problems solved</h2>

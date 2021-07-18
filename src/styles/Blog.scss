@@ -109,6 +109,7 @@
     }
   }
   &-item {
+    // height: 53vh;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -125,7 +126,7 @@
     }
     > h1 {
       background: transparent;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       color: #42406c;
     }
     > img {

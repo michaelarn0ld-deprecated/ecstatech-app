@@ -14,13 +14,13 @@ import Carousel from "react-elastic-carousel"
 const Blog = () => {
   const blogPosts = [
     {
-      category: "Technology",
+      category: "Computer Science",
       title: "C++ Data Structures - Stacks, queues, sets, and maps.",
       icon: cppDs,
     },
     {
       category: "Technology",
-      title: "C++ Data Structures - Stacks, queues, sets, and maps.",
+      title: "Leaping from Chemical Engineering to Software Development.",
       icon: cppDs,
     },
     {

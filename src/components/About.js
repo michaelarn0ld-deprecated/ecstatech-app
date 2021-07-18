@@ -15,8 +15,8 @@ const About = () => {
         <main>
           <h2>my vision</h2>
           <h1>
-            Your applications should convert more customers and keep your
-            business running smoothly.
+            Your applications should turn more browsers into buyers and keep
+            your business running smoothly.
           </h1>
         </main>
         <div></div>
