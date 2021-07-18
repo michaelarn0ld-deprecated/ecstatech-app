@@ -407,7 +407,21 @@
 @media all and (max-width: 400px) {
   .blog {
     &-item {
-      width: 70%;
+      width: 75%;
+      > p {
+        font-size: 0.9rem;
+      }
+      > h1 {
+        font-size: 1.2rem;
+      }
+      > img {
+        margin: 25px 0;
+      }
+      > button {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        align-self: flex-start;
+      }
     }
 
     > header {
@@ -423,22 +437,6 @@
         > p {
           font-size: 0.8rem;
         }
-      }
-    }
-    &-item {
-      > p {
-        font-size: 0.9rem;
-      }
-      > h1 {
-        font-size: 1.2rem;
-      }
-      > img {
-        margin: 25px 0;
-      }
-      > button {
-        font-size: 1.1rem;
-        padding: 10px 20px;
-        align-self: flex-start;
       }
     }
   }
