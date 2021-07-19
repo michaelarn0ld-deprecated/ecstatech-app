@@ -39,7 +39,7 @@
 
 .blog {
   // min-height: 100vh;
-  background-color: #5e4fea;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
 
   &-cta {
     font-size: 1.3rem;
@@ -221,7 +221,63 @@
   }
 }
 
+@media all and (min-width: 1570px) {
+  .blog {
+    &-item {
+      width: 55%;
+    }
+  }
+}
+
+@media all and (min-width: 1694px) {
+  .blog {
+    &-item {
+      width: 50%;
+    }
+  }
+}
+
+@media all and (min-width: 1840px) {
+  .blog {
+    &-item {
+      width: 47%;
+    }
+  }
+}
+
+@media all and (max-width: 1285px) {
+  .blog {
+    &-item {
+      width: 70%;
+    }
+  }
+}
+
+@media all and (max-width: 1199px) {
+  .blog {
+    &-item {
+      width: 53%;
+    }
+  }
+}
+
+@media all and (max-width: 1110px) {
+  .blog {
+    &-item {
+      width: 60%;
+    }
+  }
+}
+
 @media all and (max-width: 984px) {
+  .blog {
+    &-item {
+      width: 68%;
+    }
+  }
+}
+
+@media all and (max-width: 870px) {
   .blog {
     &-item {
       width: 70%;
@@ -310,6 +366,14 @@
   }
 }
 
+@media all and (max-width: 684px) {
+  .blog {
+    &-item {
+      width: 52%;
+    }
+  }
+}
+
 @media all and (max-width: 670px) {
   .blog {
     &-cta {
@@ -317,7 +381,7 @@
       margin-bottom: 30px;
     }
     &-item {
-      width: 60%;
+      width: 58%;
     }
     > footer {
       padding-bottom: 70px;
@@ -343,6 +407,14 @@
   }
   .rec.rec-dot {
     margin-bottom: 180px;
+  }
+}
+
+@media all and (max-width: 610px) {
+  .blog {
+    &-item {
+      width: 63%;
+    }
   }
 }
 
@@ -461,7 +533,7 @@
 @media all and (max-width: 340px) {
   .blog {
     &-item {
-      width: 76%;
+      width: 74%;
     }
     &-footer-social {
       > a {

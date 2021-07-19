@@ -30,26 +30,28 @@ const Blog = () => {
       title: "CRA vs Gatsby vs Next.js - Which is best for your next project?",
       icon: craGatsby,
     },
-    // {
-    //   category: "Techno",
-    //   title: "C++ Data Structures - Stacks, queues, sets, and maps.",
-    //   icon: cppDs,
-    // },
-    // {
-    //   category: "Logy",
-    //   title: "C++ Data Structures - Stacks, queues, sets, and maps.",
-    //   icon: cppDs,
-    // },
-    // {
-    //   category: "Tech",
-    //   title: "C++ Data Structures - Stacks, queues, sets, and maps.",
-    //   icon: cppDs,
-    // },
+    {
+      category: "Computer Science",
+      title: "C++ Data Structures - Stacks, queues, sets, and maps.",
+      icon: cppDs,
+    },
+    {
+      category: "Technology",
+      title: "Leaping from Chemical Engineering to Software Development.",
+      icon: chemE,
+    },
+    {
+      category: "Web Development",
+      title: "CRA vs Gatsby vs Next.js - Which is best for your next project?",
+      icon: craGatsby,
+    },
   ]
 
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
+
     { width: 620, itemsToShow: 2 },
+
     { width: 1000, itemsToShow: 3 },
   ]
 
