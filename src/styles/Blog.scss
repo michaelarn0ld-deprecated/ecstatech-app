@@ -130,6 +130,7 @@
       color: #42406c;
     }
     > img {
+      max-height: 200px;
       margin: 30px 0;
       background-position: bottom;
       background-size: contain;
@@ -429,7 +430,7 @@
 @media all and (max-width: 420px) {
   .blog {
     &-item {
-      width: 70%;
+      width: 68%;
     }
     > header {
       > h1 {
