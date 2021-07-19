@@ -10,6 +10,7 @@ import instagram from "../images/blog/instagram.svg"
 import youtube from "../images/blog/youtube.svg"
 import cppDs from "../images/blog/cppds.svg"
 import chemE from "../images/blog/cheme.svg"
+import craGatsby from "../images/blog/craGatsby.svg"
 import Carousel from "react-elastic-carousel"
 
 const Blog = () => {
@@ -25,9 +26,9 @@ const Blog = () => {
       icon: chemE,
     },
     {
-      category: "Technology",
-      title: "C++ Data Structures - Stacks, queues, sets, and maps.",
-      icon: cppDs,
+      category: "Web Development",
+      title: "CRA vs Gatsby vs Next.js - Which is best for your next project?",
+      icon: craGatsby,
     },
     // {
     //   category: "Techno",

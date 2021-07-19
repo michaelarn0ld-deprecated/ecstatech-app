@@ -446,6 +446,14 @@
   }
 }
 
+@media all and (max-width: 380px) {
+  .blog {
+    &-item {
+      width: 70%;
+    }
+  }
+}
+
 @media all and (max-width: 340px) {
   .blog {
     &-item {
