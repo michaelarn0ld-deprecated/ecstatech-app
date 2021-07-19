@@ -428,6 +428,9 @@
 
 @media all and (max-width: 420px) {
   .blog {
+    &-item {
+      width: 70%;
+    }
     > header {
       > h1 {
         font-size: 1.8rem;
@@ -449,7 +452,7 @@
 @media all and (max-width: 380px) {
   .blog {
     &-item {
-      width: 70%;
+      width: 73%;
     }
   }
 }
@@ -457,7 +460,7 @@
 @media all and (max-width: 340px) {
   .blog {
     &-item {
-      width: 75%;
+      width: 76%;
     }
     &-footer-social {
       > a {
