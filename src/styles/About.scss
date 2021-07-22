@@ -104,7 +104,8 @@
         color: #fafafa;
         background: transparent;
       }
-      > button {
+      > a {
+        text-decoration: none;
         align-self: flex-end;
         background: #5e4fea;
         color: #fafafa;
@@ -478,7 +479,7 @@
         > h1 {
           font-size: 1.5rem;
         }
-        > button {
+        > a {
           font-size: 1.5rem;
         }
       }
@@ -630,7 +631,7 @@
         > h1 {
           font-size: 1.3rem;
         }
-        > button {
+        > a {
           font-size: 1.3rem;
         }
       }
@@ -671,7 +672,7 @@
         > h1 {
           font-size: 1.1rem;
         }
-        > button {
+        > a {
           font-size: 1.1rem;
         }
       }
@@ -721,7 +722,7 @@
         > h1 {
           font-size: 1.3rem;
         }
-        > button {
+        > a {
           font-size: 1.3rem;
           align-self: center;
         }

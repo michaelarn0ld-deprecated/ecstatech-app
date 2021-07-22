@@ -6,6 +6,7 @@ import reliable from "../images/about/reliable.svg"
 import howHelp from "../images/about/howihelp.svg"
 import whoHelp from "../images/about/whoihelp.svg"
 import profile from "../images/about/profile.jpg"
+import resume from "../static/resume.pdf"
 import "../styles/About.scss"
 
 const About = () => {
@@ -36,7 +37,9 @@ const About = () => {
             Optimizing my clients’ conversion through performative code and
             amazing user experiences.
           </h1>
-          <button>My Resume</button>
+          <a href={resume} target="_blank">
+            My Resume
+          </a>
         </article>
       </section>
       <div className="aboutpage-values">
