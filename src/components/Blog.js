@@ -19,31 +19,37 @@ const Blog = () => {
       category: "Computer Science",
       title: "C++ Data Structures - Stacks, queues, sets, and maps.",
       icon: cppDs,
+      link: 'https://dev.to/michaelarn0ld/c-data-structures-stacks-queues-sets-and-maps-28ap',
     },
     {
       category: "Technology",
       title: "Leaping from Chemical Engineering to Software Development.",
       icon: chemE,
+      link: 'https://michaelarn0ld.medium.com/i-fell-in-love-with-code-leaping-from-chemical-engineering-to-software-development-9ccac9f430a7',
     },
     {
       category: "Web Development",
-      title: "CRA vs Gatsby vs Next.js - Which is best for your next project?",
+      title: "Hosting on Heroku - Configuring ClearDB MySQL for a Laravel app",
       icon: craGatsby,
+      link: '',
     },
     {
       category: "Computer Science",
       title: "C++ Data Structures - Stacks, queues, sets, and maps.",
       icon: cppDs,
+      link: 'https://dev.to/michaelarn0ld/c-data-structures-stacks-queues-sets-and-maps-28ap',
     },
     {
       category: "Technology",
       title: "Leaping from Chemical Engineering to Software Development.",
       icon: chemE,
+      link: 'https://michaelarn0ld.medium.com/i-fell-in-love-with-code-leaping-from-chemical-engineering-to-software-development-9ccac9f430a7',
     },
     {
       category: "Web Development",
-      title: "CRA vs Gatsby vs Next.js - Which is best for your next project?",
+      title: "Hosting on Heroku - Configuring ClearDB MySQL for a Laravel app",
       icon: craGatsby,
+      link: '',
     },
   ]
 
@@ -67,7 +73,7 @@ const Blog = () => {
             <p>{post.category}</p>
             <h1>{post.title}</h1>
             <img src={post.icon} alt="" />
-            <button>Read Article</button>
+            <a href={post.link} target="_blank">Read Article</a>
           </div>
         ))}
       </Carousel>
@@ -107,9 +113,9 @@ const Blog = () => {
             <a href="https://github.com/michaelarn0ld" target="_blank">
               <img src={github} alt="" />
             </a>
-            <a href="https://www.instagram.com/ecstatechapps/" target="_blank">
+            {/* <a href="https://www.instagram.com/ecstatechapps/" target="_blank">
               <img src={instagram} alt="" />
-            </a>
+            </a> */}
             <a
               href="https://m.youtube.com/channel/UC2CTdHvm_vlLMJ5f3B-Ggew/"
               target="_blank"

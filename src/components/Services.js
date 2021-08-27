@@ -97,7 +97,7 @@ const Services = () => {
       <div className="services-glass">
         <div className="services-glass-item one">
           <img src={webdev} alt="" />
-          <h2>Web Development</h2>
+          <h2>Frontend Apps</h2>
           <p>
             Need a website? I develop quick and converting web applications that
             look great on all devices.
@@ -105,6 +105,21 @@ const Services = () => {
           <button
             onClick={() => {
               setModalState(modalContent.webDev)
+              setTimeout(() => setModalOpen(!modalOpen), 100)
+            }}
+          >
+            Learn More
+          </button>
+        </div>
+        <div className="services-glass-item three">
+          <img src={dataviz} alt="" />
+          <h2>Backend Services</h2>
+          <p>
+            Got data? I leverage the latest tools to build APIs and integrated backends that let your business run smooth.
+          </p>
+          <button
+            onClick={() => {
+              setModalState(modalContent.dataAnaltyics)
               setTimeout(() => setModalOpen(!modalOpen), 100)
             }}
           >
@@ -121,22 +136,6 @@ const Services = () => {
           <button
             onClick={() => {
               setModalState(modalContent.mobileDev)
-              setTimeout(() => setModalOpen(!modalOpen), 100)
-            }}
-          >
-            Learn More
-          </button>
-        </div>
-        <div className="services-glass-item three">
-          <img src={dataviz} alt="" />
-          <h2>Data Analytics</h2>
-          <p>
-            Got data? I leverage the latest tools to transform data into
-            actionable insights for your business.
-          </p>
-          <button
-            onClick={() => {
-              setModalState(modalContent.dataAnaltyics)
               setTimeout(() => setModalOpen(!modalOpen), 100)
             }}
           >

@@ -3,10 +3,10 @@ import cssIcon from "../images/modal/modal-icons/css-icon.svg"
 import jsIcon from "../images/modal/modal-icons/javascript-icon.svg"
 import reactNative from "../images/modal/modal-icons/react-native.svg"
 import reactIcon from "../images/modal/modal-icons/react-icon.svg"
-import nodeIcon from "../images/modal/modal-icons/node-icon.svg"
 import phpIcon from "../images/modal/modal-icons/laravel-icon.svg"
+import laravelIcon from "../images/modal/modal-icons/php-icon.svg"
+import mysqlIcon from "../images/modal/modal-icons/mysql-icon.svg"
 import pythonIcon from "../images/modal/modal-icons/python-icon.svg"
-import tableauIcon from "../images/modal/modal-icons/tableau-icon.svg"
 import appscriptIcon from "../images/modal/modal-icons/apps-script.svg"
 import webMain from "../images/modal/modal-main/webdev-main.svg"
 import mobileMain from "../images/modal/modal-main/mobile-main.svg"
@@ -15,14 +15,14 @@ import automationMain from "../images/modal/modal-main/automation-main.svg"
 
 const modalContent = {
   webDev: {
-    title: "Web Development",
+    title: "Frontend Apps",
     logo: webMain,
     content:
       "You deserve a pixel-perfect web presence that reflects how awesome your business is! A good website should be functional, fast, and secure. Whether your project is dynamic and complex, or is a smaller landing page, I work closely with you to make sure we hit the mark.",
     problems: [
       "Tailored web experiences from scratch",
       "E-commerce site setup and maintenance",
-      "Integrated internal business tools",
+      "Updating and maintaining an existing website",
       "Search engine optimization",
     ],
     icons: [
@@ -30,10 +30,8 @@ const modalContent = {
       ["CSS3", cssIcon],
       ["Javascript", jsIcon],
       ["React", reactIcon],
-      ["Node", nodeIcon],
-      ["PHP", phpIcon],
     ],
-    format: "three",
+    format: "two",
   },
   mobileDev: {
     title: "Mobile Apps",
@@ -50,21 +48,22 @@ const modalContent = {
     format: "one",
   },
   dataAnaltyics: {
-    title: "Data Analytics",
+    title: "Backend Services",
     logo: dataMain,
     content:
-      "While data can be one of a business’s most valuable assets, managing a successful analytics program can often seem like a daunting task. Let me take care of the headache and set up the infrastructure you need to turn information into insights.",
+      "While data can be one of a business’s most valuable assets, managing and accessing it when you need it can seem like a daunting task. Let me take care of the headache and set up the infrastructure you need to turn information into action.",
     problems: [
-      "Gain insights from unused business data",
-      "Discover trends that predict customer behavior",
-      "Make decisions proactively instead of reactively",
-      "Optimize business strategies and operations",
+      "User registration and authentication",
+      "Creating, reading, updating, and deleting data",
+      "Utilizing data inside of a website or application",
+      "Optimize business processes and operations",
     ],
     icons: [
-      ["Python", pythonIcon],
-      ["Tableau", tableauIcon],
+      ["PHP", phpIcon],
+      ["MySQL", mysqlIcon],
+      ["Laravel", laravelIcon],
     ],
-    format: "two",
+    format: "three",
   },
   automation: {
     title: "Automation",

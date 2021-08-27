@@ -6,7 +6,7 @@ import reliable from "../images/about/reliable.svg"
 import howHelp from "../images/about/howihelp.svg"
 import whoHelp from "../images/about/whoihelp.svg"
 import profile from "../images/about/profile.jpg"
-import resume from "../static/resume.pdf"
+import resume from "../static/michaelarnold_resume.pdf"
 import "../styles/About.scss"
 
 const About = () => {
